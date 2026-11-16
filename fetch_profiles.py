@@ -101,8 +101,22 @@ def get_user_repos(session, login):
     return resp.json()
 
 
+_KEYWORD_PATTERN_CACHE = {}
+
+
+def _keyword_pattern(keyword):
+    pattern = _KEYWORD_PATTERN_CACHE.get(keyword)
+    if pattern is None:
+        pattern = re.compile(r"\b" + re.escape(keyword) + r"\b", re.IGNORECASE)
+        _KEYWORD_PATTERN_CACHE[keyword] = pattern
+    return pattern
+
+
 def score_candidate(repos):
     """Match repo metadata against the AI keyword dictionary.
+
+    Uses word-boundary matching so short keywords (e.g. "rag", "bert") don't
+    match inside unrelated words ("storage", "pragma", "liberty").
 
     Returns (matched_categories: set[str], score: int, top_projects: list[dict]).
     """
@@ -121,12 +135,12 @@ def score_candidate(repos):
                     " ".join(repo.get("topics") or []),
                 ],
             )
-        ).lower()
+        )
 
         repo_categories = set()
         for category, keywords in config.AI_KEYWORD_CATEGORIES.items():
             for keyword in keywords:
-                if keyword in haystack:
+                if _keyword_pattern(keyword).search(haystack):
                     repo_categories.add(category)
                     hit_keywords.add(keyword)
 
