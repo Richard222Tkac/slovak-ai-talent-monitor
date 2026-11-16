@@ -303,6 +303,36 @@ def render_dashboard(profiles, new_logins):
     return out_path
 
 
+def export_json(profiles, new_logins):
+    """Flat JSON export of tracked profiles, for consumers other than the HTML dashboard."""
+    rows = []
+    for p in profiles:
+        hf = p.get("hf") or {}
+        rows.append(
+            {
+                "login": p["login"],
+                "name": p.get("name") or p["login"],
+                "github_url": p["html_url"],
+                "categories": sorted(p["categories"]),
+                "top_projects": p["top_projects"],
+                "hf_username": hf.get("username"),
+                "hf_url": hf.get("url"),
+                "hf_models": hf.get("num_models"),
+                "hf_datasets": hf.get("num_datasets"),
+                "hf_spaces": hf.get("num_spaces"),
+                "location": p.get("location"),
+                "email": p.get("email"),
+                "blog": p.get("blog"),
+                "first_seen": p["first_seen"],
+                "is_new": p["login"] in new_logins,
+            }
+        )
+    out_path = Path(config.PROFILES_JSON_PATH)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(rows, indent=2, ensure_ascii=False), encoding="utf-8")
+    return out_path
+
+
 def main():
     load_dotenv_if_present()
     session = github_session()
@@ -352,9 +382,11 @@ def main():
 
     save_seen(seen)
     out_path = render_dashboard(profiles, new_logins)
+    json_path = export_json(profiles, new_logins)
 
     print(f"\nDone. {len(profiles)} AI-focused Slovak profiles tracked, {len(new_logins)} new this run.")
     print(f"Dashboard written to: {out_path.resolve()}")
+    print(f"JSON export written to: {json_path.resolve()}")
 
 
 if __name__ == "__main__":

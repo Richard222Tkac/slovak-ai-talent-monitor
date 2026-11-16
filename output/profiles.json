@@ -1,0 +1,476 @@
+[
+  {
+    "login": "Jerga99",
+    "name": "Filip Jerga",
+    "github_url": "https://github.com/Jerga99",
+    "categories": [
+      "Classical ML"
+    ],
+    "top_projects": [
+      {
+        "name": "neural-network-course",
+        "url": "https://github.com/Jerga99/neural-network-course",
+        "description": "Neural Network Course in JS",
+        "stars": 3
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "jerga99@gmail.com",
+    "blog": "https://eincode.com",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "mrshu",
+    "name": "Marek Šuppa",
+    "github_url": "https://github.com/mrshu",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "muxboard",
+        "url": "https://github.com/mrshu/muxboard",
+        "description": "Stream Deck+ dashboard for cmux, Orca, and Herdr coding agents, with live attention keys and CodexBar quotas, pace, spend, tokens, and credits on the LCD.",
+        "stars": 11
+      },
+      {
+        "name": "pi-commandcode-provider",
+        "url": "https://github.com/mrshu/pi-commandcode-provider",
+        "description": "pi custom provider for the Command Code API — 18 models including Claude, GPT, DeepSeek, Kimi, GLM, MiniMax, and Qwen",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://mareksuppa.com",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "markub3327",
+    "name": "Martin Kubovčík",
+    "github_url": "https://github.com/markub3327",
+    "categories": [
+      "Classical ML",
+      "Deep Learning Frameworks"
+    ],
+    "top_projects": [
+      {
+        "name": "HAR-Transformer",
+        "url": "https://github.com/markub3327/HAR-Transformer",
+        "description": "Transformer for Human Activity Recognition",
+        "stars": 78
+      },
+      {
+        "name": "Solar-Transformer",
+        "url": "https://github.com/markub3327/Solar-Transformer",
+        "description": "Solar Irradiance Forecasting with Transformer model",
+        "stars": 30
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "markub3327@gmail.com",
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "Electry",
+    "name": "Michal Chvila",
+    "github_url": "https://github.com/Electry",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "opencode-jetbrains-ai-bridge",
+        "url": "https://github.com/Electry/opencode-jetbrains-ai-bridge",
+        "description": "Proof of concept plugin for OpenCode V2 that allows using GPT & Claude models via your JetBrains AI plan natively",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "dev@electry.sk",
+    "blog": "https://electry.sk",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "amosbastian",
+    "name": "Amos Bastian",
+    "github_url": "https://github.com/amosbastian",
+    "categories": [
+      "Classical ML"
+    ],
+    "top_projects": [
+      {
+        "name": "understat",
+        "url": "https://github.com/amosbastian/understat",
+        "description": "An asynchronous Python package for https://understat.com/.",
+        "stars": 187
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Banska Bystrica, Slovakia",
+    "email": "amosbastian@gmail.com",
+    "blog": "https://amosbastian.com",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "ilyar",
+    "name": "Ilyar",
+    "github_url": "https://github.com/ilyar",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "aiqa",
+        "url": "https://github.com/ilyar/aiqa",
+        "description": "Compatibility and behavior testing for OpenAI, Anthropic, and Google GenAI API facades",
+        "stars": 1
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "ilyar.software@gmail.com",
+    "blog": "https://ilyarsoftware.substack.com/",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "samuelpatro",
+    "name": "Samuel",
+    "github_url": "https://github.com/samuelpatro",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "vibejuice",
+        "url": "https://github.com/samuelpatro/vibejuice",
+        "description": "One-click account switcher for Claude Code, Codex CLI and Grok CLI. When one account runs dry, switch and keep coding. Quota meters included.",
+        "stars": 3
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "http://samuelpatro.com",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "robertvazan",
+    "name": "Robert Važan",
+    "github_url": "https://github.com/robertvazan",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "llobot",
+        "url": "https://github.com/robertvazan/llobot",
+        "description": "Obsolete custom LLM agent",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": null,
+    "blog": "https://robert.machinezoo.com/",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "JurajNyiri",
+    "name": "Juraj Nyíri",
+    "github_url": "https://github.com/JurajNyiri",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "hass-codex-conversation",
+        "url": "https://github.com/JurajNyiri/hass-codex-conversation",
+        "description": "Home Assistant custom integration that adds an OpenAI Codex-powered conversation agent with configurable subentries for Assist and AI Task.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "juraj.nyiri@gmail.com",
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "JakubVojvoda",
+    "name": "Jakub Vojvoda",
+    "github_url": "https://github.com/JakubVojvoda",
+    "categories": [
+      "Computer Vision"
+    ],
+    "top_projects": [
+      {
+        "name": "motion-segmentation",
+        "url": "https://github.com/JakubVojvoda/motion-segmentation",
+        "description": "Robust motion detection/segmentation using OpenCV",
+        "stars": 8
+      },
+      {
+        "name": "filtering-mcu-fpga",
+        "url": "https://github.com/JakubVojvoda/filtering-mcu-fpga",
+        "description": "Simple image filtering and segmentation on MCU and FPGA",
+        "stars": 4
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://jakubvojvoda.com",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "michaltakac",
+    "name": "Michal Takac",
+    "github_url": "https://github.com/michaltakac",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "paperclip-hermes-codex-auth",
+        "url": "https://github.com/michaltakac/paperclip-hermes-codex-auth",
+        "description": "Sign a Hermes agent in to OpenAI Codex from the Paperclip UI. Device-code login per Hermes profile, so each agent holds its own credential instead of sharing one that rotates.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Košice, Slovakia",
+    "email": "hello@michaltakac.com",
+    "blog": "https://michaltakac.com",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "drahosp",
+    "name": "Peter Drahoš",
+    "github_url": "https://github.com/drahosp",
+    "categories": [
+      "Deep Learning Frameworks"
+    ],
+    "top_projects": [
+      {
+        "name": "ort",
+        "url": "https://github.com/drahosp/ort",
+        "description": "Fast ML inference & training for Rust with ONNX Runtime",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "drahosp@gmail.com",
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "xGoldy",
+    "name": "Patrik Goldschmidt",
+    "github_url": "https://github.com/xGoldy",
+    "categories": [
+      "Classical ML",
+      "Deep Learning Frameworks"
+    ],
+    "top_projects": [
+      {
+        "name": "nid-datasets",
+        "url": "https://github.com/xGoldy/nid-datasets",
+        "description": "Official repository of the \"Network Intrusion Datasets: A Survey, Limitations, and Recommendations\" by Goldschmidt and Chudá, 2025.",
+        "stars": 10
+      },
+      {
+        "name": "Windower",
+        "url": "https://github.com/xGoldy/Windower",
+        "description": "Source code of \"Windower: Feature Extraction for Real-Time DDoS Detection Using Machine Learning\" paper.",
+        "stars": 8
+      },
+      {
+        "name": "02456-deep-learning-with-PyTorch",
+        "url": "https://github.com/xGoldy/02456-deep-learning-with-PyTorch",
+        "description": "Exercises and supplementary material for the deep learning course 02456 using PyTorch.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": "goldschmidt.patrik@gmail.com",
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "vygidor",
+    "name": "V",
+    "github_url": "https://github.com/vygidor",
+    "categories": [
+      "Classical ML"
+    ],
+    "top_projects": [
+      {
+        "name": "predmachlearncoursera",
+        "url": "https://github.com/vygidor/predmachlearncoursera",
+        "description": "Practical Machine Learning @ Coursera",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": null,
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "janjanusek",
+    "name": "Ing. Ján Janušek",
+    "github_url": "https://github.com/janjanusek",
+    "categories": [
+      "Computer Vision"
+    ],
+    "top_projects": [
+      {
+        "name": "Computer-vision-APP",
+        "url": "https://github.com/janjanusek/Computer-vision-APP",
+        "description": "This project is application for computer vision. Project includes DLL to my first version of my AI SDK. This SDK is not available online because I'm working on better implementation of this SDK. App was presented to my supervisor here: https://www.youtube.com/watch?v=bLEpKUo93fo&feature=youtu.be . Please be aware this description is targeted for real person who I know so respect my language.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak republic, Žilina",
+    "email": null,
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "Polokij",
+    "name": "Vitalii Liubimov",
+    "github_url": "https://github.com/Polokij",
+    "categories": [
+      "LLM / NLP"
+    ],
+    "top_projects": [
+      {
+        "name": "laravel-ai-translator",
+        "url": "https://github.com/Polokij/laravel-ai-translator",
+        "description": "Automatic translate your language files into many languages using AI like Claude, GPT and etc.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava city, Slovak Republic",
+    "email": "vitalii@liubimov.org",
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "jschon1991",
+    "name": "Jakub Schön",
+    "github_url": "https://github.com/jschon1991",
+    "categories": [
+      "Deep Learning Frameworks"
+    ],
+    "top_projects": [
+      {
+        "name": "ParkingSpotter",
+        "url": "https://github.com/jschon1991/ParkingSpotter",
+        "description": "Application for recognising free parking spots from camera feed using TensorFlow neural network for classification and Django framework to display data.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak republic, Banska Bystrica",
+    "email": "j.schon1991@gmail.com",
+    "blog": "",
+    "first_seen": "2026-11-16",
+    "is_new": false
+  }
+]

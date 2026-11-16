@@ -57,6 +57,7 @@ MAX_REPOS_PER_CANDIDATE = 10
 # Paths
 SEEN_PROFILES_PATH = "data/seen_profiles.json"
 DASHBOARD_OUTPUT_PATH = "output/dashboard.html"
+PROFILES_JSON_PATH = "output/profiles.json"
 
 # GitHub Search API is rate-limited more strictly (30 req/min authenticated) than
 # the regular REST API (5000 req/hr). Sleep this many seconds between search calls.
