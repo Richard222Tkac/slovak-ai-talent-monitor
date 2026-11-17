@@ -4,14 +4,28 @@
     "name": "Filip Jerga",
     "github_url": "https://github.com/Jerga99",
     "categories": [
-      "Classical ML"
+      "Data / AI",
+      "Frontend",
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "neural-network-course",
-        "url": "https://github.com/Jerga99/neural-network-course",
-        "description": "Neural Network Course in JS",
-        "stars": 3
+        "name": "electron-react-boilerplate",
+        "url": "https://github.com/Jerga99/electron-react-boilerplate",
+        "description": "Course on how to create Electron Chat application",
+        "stars": 81
+      },
+      {
+        "name": "bwm-ng",
+        "url": "https://github.com/Jerga99/bwm-ng",
+        "description": "Course to create a Airbnb like app in React, Angular and Node",
+        "stars": 74
+      },
+      {
+        "name": "nft-marketplace",
+        "url": "https://github.com/Jerga99/nft-marketplace",
+        "description": "NFT Marketplace on Ethereum Blockchain based on course. Made in React/Next JS, Solidity and Typescript.",
+        "stars": 72
       }
     ],
     "hf_username": null,
@@ -22,7 +36,677 @@
     "location": "Slovakia",
     "email": "jerga99@gmail.com",
     "blog": "https://eincode.com",
+    "linkedin_url": "https://www.linkedin.com/in/filip-jerga-5949b8106/",
+    "x_url": "https://twitter.com/filip0x1",
+    "other_social": [
+      {
+        "provider": "youtube",
+        "url": "https://www.youtube.com/c/Eincode"
+      }
+    ],
     "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "filiphric",
+    "name": "Filip Hric",
+    "github_url": "https://github.com/filiphric",
+    "categories": [
+      "Backend",
+      "Data / AI",
+      "Frontend",
+      "Languages",
+      "Mobile",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "cypress-plugin-api",
+        "url": "https://github.com/filiphric/cypress-plugin-api",
+        "description": "Cypress plugin to show your API information in the Cypress UI runner",
+        "stars": 273
+      },
+      {
+        "name": "cypress-plugin-steps",
+        "url": "https://github.com/filiphric/cypress-plugin-steps",
+        "description": "",
+        "stars": 77
+      },
+      {
+        "name": "trelloapp-workshop-app",
+        "url": "https://github.com/filiphric/trelloapp-workshop-app",
+        "description": "",
+        "stars": 32
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Senec, Slovakia",
+    "email": null,
+    "blog": "https://filiphric.com",
+    "linkedin_url": "http://www.linkedin.com/in/filip-hric",
+    "x_url": "https://twitter.com/filip_hric",
+    "other_social": [
+      {
+        "provider": "youtube",
+        "url": "https://www.youtube.com/@filip_hric"
+      },
+      {
+        "provider": "generic",
+        "url": "https://filiphric.com"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "radovankavicky",
+    "name": "Radovan Kavicky",
+    "github_url": "https://github.com/radovankavicky",
+    "categories": [
+      "Data / AI",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "economy",
+        "url": "https://github.com/radovankavicky/economy",
+        "description": "Forecast macroeconomic indicators",
+        "stars": 2
+      },
+      {
+        "name": "INWTUtils",
+        "url": "https://github.com/radovankavicky/INWTUtils",
+        "description": "R package with utility functions used by INWT Statistics",
+        "stars": 1
+      },
+      {
+        "name": "PyDataSKMeetup29",
+        "url": "https://github.com/radovankavicky/PyDataSKMeetup29",
+        "description": "Slides + materials from 29th of PyData Slovakia",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "radovan.kavicky@gmail.com",
+    "blog": "https://www.linkedin.com/in/radovankavicky",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/radovankavicky",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "nem0",
+    "name": "Mikulas Florek",
+    "github_url": "https://github.com/nem0",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "LumixEngine",
+        "url": "https://github.com/nem0/LumixEngine",
+        "description": "3D C++ Game Engine - yet another open source game engine",
+        "stars": 3907
+      },
+      {
+        "name": "OpenFBX",
+        "url": "https://github.com/nem0/OpenFBX",
+        "description": "Lightweight open source FBX importer",
+        "stars": 1355
+      },
+      {
+        "name": "lumixengine_maps",
+        "url": "https://github.com/nem0/lumixengine_maps",
+        "description": "Map downloader for Lumix Engine ",
+        "stars": 35
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia, Bratislava",
+    "email": "mikulas.florek@gamedev.sk",
+    "blog": "https://twitter.com/mikulasflorek",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/mikulasflorek",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "jangaraj",
+    "name": "Jan Garaj",
+    "github_url": "https://github.com/jangaraj",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "keycloak-with-opentelemetry",
+        "url": "https://github.com/jangaraj/keycloak-with-opentelemetry",
+        "description": "",
+        "stars": 25
+      },
+      {
+        "name": "vuetify-keycloak-theme",
+        "url": "https://github.com/jangaraj/vuetify-keycloak-theme",
+        "description": "Proof of concept: how to use Vuetify in Keycloak theme",
+        "stars": 19
+      },
+      {
+        "name": "keycloak-cors-issue-debugging",
+        "url": "https://github.com/jangaraj/keycloak-cors-issue-debugging",
+        "description": "Recommendations how to solve/debug CORS issues, when Keycloak IDP is used",
+        "stars": 16
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "United Kingdom/Slovakia",
+    "email": "jan.garaj@gmail.com",
+    "blog": "http://www.jangaraj.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "lalinsky",
+    "name": "Lukáš Lalinský",
+    "github_url": "https://github.com/lalinsky",
+    "categories": [
+      "DevOps / Cloud",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "zio",
+        "url": "https://github.com/lalinsky/zio",
+        "description": "Async I/O framework for Zig",
+        "stars": 702
+      },
+      {
+        "name": "dusty",
+        "url": "https://github.com/lalinsky/dusty",
+        "description": "HTTP client/server library for Zig",
+        "stars": 184
+      },
+      {
+        "name": "zt",
+        "url": "https://github.com/lalinsky/zt",
+        "description": "HTML template language that compiles to Zig",
+        "stars": 105
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Trenčín, Slovakia",
+    "email": "lukas@lalinsky.com",
+    "blog": "https://lalinsky.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "bluesky",
+        "url": "https://bsky.app/profile/lukaslalinsky.bsky.social"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "ingbrzy",
+    "name": "ingbrzy",
+    "github_url": "https://github.com/ingbrzy",
+    "categories": [
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "Xiaomi.eu-MIUIv14-XML-Compare",
+        "url": "https://github.com/ingbrzy/Xiaomi.eu-MIUIv14-XML-Compare",
+        "description": "MIUI 14 XML Daily Compare for Xiaomi.eu builds",
+        "stars": 38
+      },
+      {
+        "name": "Xiaomi.eu-HyperOS-1.0-XML-Compare",
+        "url": "https://github.com/ingbrzy/Xiaomi.eu-HyperOS-1.0-XML-Compare",
+        "description": "HyperOS 1.0 XML Weekly Compare for Xiaomi.eu builds",
+        "stars": 30
+      },
+      {
+        "name": "Xiaomi.eu-MIUIv10-XML-Compare",
+        "url": "https://github.com/ingbrzy/Xiaomi.eu-MIUIv10-XML-Compare",
+        "description": "MIUI 10 XML Daily Compare for Xiaomi.eu builds",
+        "stars": 22
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia, EU",
+    "email": null,
+    "blog": "http://www.miuios.cz",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "MatejBendik",
+    "name": "Matej Bendík",
+    "github_url": "https://github.com/MatejBendik",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "promptzone",
+        "url": "https://github.com/MatejBendik/promptzone",
+        "description": "Promptzone is an AI prompting tool for modern world to discover, create and share creative prompts.",
+        "stars": 5
+      },
+      {
+        "name": "MatejBendik",
+        "url": "https://github.com/MatejBendik/MatejBendik",
+        "description": "",
+        "stars": 4
+      },
+      {
+        "name": "MakeDock",
+        "url": "https://github.com/MatejBendik/MakeDock",
+        "description": "Create beautiful macOS-style dock images in seconds.",
+        "stars": 4
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "matejbendik.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "ckissi",
+    "name": "Csaba Kissi",
+    "github_url": "https://github.com/ckissi",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "Learn-by-projects",
+        "url": "https://github.com/ckissi/Learn-by-projects",
+        "description": "Programming tutorials for C, C#, Python, Javascript, Typescript, React, Go, HTML/CSS, Java. PHP and more",
+        "stars": 1658
+      },
+      {
+        "name": "kinetics",
+        "url": "https://github.com/ckissi/kinetics",
+        "description": "A library of interface animations built on spring physics instead of fixed-duration easing.",
+        "stars": 644
+      },
+      {
+        "name": "responsive-html-email-templates",
+        "url": "https://github.com/ckissi/responsive-html-email-templates",
+        "description": "Collection of Free responsive HTML templates for Startups",
+        "stars": 460
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://www.csabakissi.com",
+    "linkedin_url": "https://www.linkedin.com/in/csaba-kissi/",
+    "x_url": "https://twitter.com/csaba_kissi",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "xhyrom",
+    "name": "Jozef Steinhübl",
+    "github_url": "https://github.com/xhyrom",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "zed-discord-presence",
+        "url": "https://github.com/xhyrom/zed-discord-presence",
+        "description": "extension for zed that adds support for discord rich presence using lsp",
+        "stars": 478
+      },
+      {
+        "name": "discord-datamining",
+        "url": "https://github.com/xhyrom/discord-datamining",
+        "description": "repository offering datamining and analyzing web builds, host builds, articles, blog posts, policies, jobs, @discord github and their domain(s)",
+        "stars": 71
+      },
+      {
+        "name": "bun-discord-bot",
+        "url": "https://github.com/xhyrom/bun-discord-bot",
+        "description": "official discord bot for bun server",
+        "stars": 39
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "jozef@steinhubl.com",
+    "blog": "https://steinhubl.com",
+    "linkedin_url": "https://www.linkedin.com/in/jozefsteinhubl/",
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://links.xhyrom.dev"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "haad",
+    "name": "Adam Hamsik",
+    "github_url": "https://github.com/haad",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "proxychains",
+        "url": "https://github.com/haad/proxychains",
+        "description": "proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: \"user/pass\" for SOCKS4/5, \"basic\" for HTTP.",
+        "stars": 7996
+      },
+      {
+        "name": "arandr",
+        "url": "https://github.com/haad/arandr",
+        "description": "ARandR: Another XRandR GUI",
+        "stars": 77
+      },
+      {
+        "name": "net-snmp",
+        "url": "https://github.com/haad/net-snmp",
+        "description": "net-snmp repository with ocfs & ocfs2 support.",
+        "stars": 56
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava Slovakia",
+    "email": "haaaad@gmail.com",
+    "blog": "https://www.lablabs.io",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "mareksuscak",
+    "name": "Marek Suscak",
+    "github_url": "https://github.com/mareksuscak",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "cs50",
+        "url": "https://github.com/mareksuscak/cs50",
+        "description": "🎓 Harvard CS50x — 2018 solutions 👨‍🏫",
+        "stars": 526
+      },
+      {
+        "name": "favs",
+        "url": "https://github.com/mareksuscak/favs",
+        "description": "📚 A curated collection of great resources I stumbled upon throughout my career.",
+        "stars": 65
+      },
+      {
+        "name": "asus-pce-n53-linux",
+        "url": "https://github.com/mareksuscak/asus-pce-n53-linux",
+        "description": "🤖 Asus PCE-N53 Linux Driver for Kernel versions 3.x, 4.x and 5.x",
+        "stars": 30
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Kosice, Slovakia",
+    "email": "marek.suscak@gmail.com",
+    "blog": "https://www.suscak.com/",
+    "linkedin_url": "https://www.linkedin.com/in/mareksuscak/",
+    "x_url": "https://x.com/mareksuscak",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "LOM-instruments",
+    "name": "LOM",
+    "github_url": "https://github.com/LOM-instruments",
+    "categories": [],
+    "top_projects": [
+      {
+        "name": "Priezor",
+        "url": "https://github.com/LOM-instruments/Priezor",
+        "description": "open source heptagonal magnetic antenna",
+        "stars": 99
+      },
+      {
+        "name": "Elektrosluch-DIY",
+        "url": "https://github.com/LOM-instruments/Elektrosluch-DIY",
+        "description": "",
+        "stars": 77
+      },
+      {
+        "name": "Elektrosluch-3-plus",
+        "url": "https://github.com/LOM-instruments/Elektrosluch-3-plus",
+        "description": "Elektrosluch 3+ • electromagnetic listening device",
+        "stars": 76
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://lom.audio",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "itsgoingd",
+    "name": "its",
+    "github_url": "https://github.com/itsgoingd",
+    "categories": [
+      "Backend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "clockwork",
+        "url": "https://github.com/itsgoingd/clockwork",
+        "description": "Clockwork - php dev tools in your browser - server-side component",
+        "stars": 5946
+      },
+      {
+        "name": "clockwork-chrome",
+        "url": "https://github.com/itsgoingd/clockwork-chrome",
+        "description": "Clockwork - php dev tools integrated to your browser - Chrome extension",
+        "stars": 409
+      },
+      {
+        "name": "slim-services",
+        "url": "https://github.com/itsgoingd/slim-services",
+        "description": "Service manager for Slim compatible with Laravel packages",
+        "stars": 75
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "its@luzer.sk",
+    "blog": "https://its.wtf",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/itsgoingd",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "sneakyevil",
+    "name": "sneakyevil",
+    "github_url": "https://github.com/sneakyevil",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "IL2CPP_Resolver",
+        "url": "https://github.com/sneakyevil/IL2CPP_Resolver",
+        "description": "A run-time API resolver for IL2CPP Unity.",
+        "stars": 479
+      },
+      {
+        "name": "SD-ModMenu",
+        "url": "https://github.com/sneakyevil/SD-ModMenu",
+        "description": "Mod Menu for Sleeping Dogs: Definitive Edition",
+        "stars": 100
+      },
+      {
+        "name": "SD-RenderTweaker",
+        "url": "https://github.com/sneakyevil/SD-RenderTweaker",
+        "description": "A modification for Sleeping Dogs: Definitive Edition that allows to tweak more in-game settings, such as disabling anti-aliasing, certain UI elements, and much more.",
+        "stars": 87
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "admin@sneakyevil.eu",
+    "blog": "https://sneakyevil.eu",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "developer-samuel",
+    "name": "Samuel Šteiner",
+    "github_url": "https://github.com/developer-samuel",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "github-stats-generator",
+        "url": "https://github.com/developer-samuel/github-stats-generator",
+        "description": "SVG stats and metrics cards for your GitHub profile README.",
+        "stars": 4
+      },
+      {
+        "name": "ares-client",
+        "url": "https://github.com/developer-samuel/ares-client",
+        "description": "PHP library for fetching company data from the Czech ARES registry",
+        "stars": 3
+      },
+      {
+        "name": "developer-samuel",
+        "url": "https://github.com/developer-samuel/developer-samuel",
+        "description": "GitHub profile",
+        "stars": 2
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "samuel-steiner.com",
+    "linkedin_url": "https://www.linkedin.com/in/samuel-programmer",
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://links.samuel-steiner.com"
+      }
+    ],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -30,20 +714,27 @@
     "name": "Marek Šuppa",
     "github_url": "https://github.com/mrshu",
     "categories": [
-      "LLM / NLP"
+      "Data / AI",
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "muxboard",
-        "url": "https://github.com/mrshu/muxboard",
-        "description": "Stream Deck+ dashboard for cmux, Orca, and Herdr coding agents, with live attention keys and CodexBar quotas, pace, spend, tokens, and credits on the LCD.",
-        "stars": 11
+        "name": "github-statuses",
+        "url": "https://github.com/mrshu/github-statuses",
+        "description": "The \"Missing GitHub Status Page\" -- a Flat Data attempt at historically documenting GitHub statuses",
+        "stars": 578
       },
       {
-        "name": "pi-commandcode-provider",
-        "url": "https://github.com/mrshu/pi-commandcode-provider",
-        "description": "pi custom provider for the Command Code API — 18 models including Claude, GPT, DeepSeek, Kimi, GLM, MiniMax, and Qwen",
-        "stars": 0
+        "name": "agent-skills",
+        "url": "https://github.com/mrshu/agent-skills",
+        "description": "Useful skills for AI agents (Claude Code, etc.)",
+        "stars": 22
+      },
+      {
+        "name": "zjctl",
+        "url": "https://github.com/mrshu/zjctl",
+        "description": "Programmatic Zellij automation for humans, scripts, and agents alike",
+        "stars": 17
       }
     ],
     "hf_username": null,
@@ -54,7 +745,358 @@
     "location": "Slovakia",
     "email": null,
     "blog": "https://mareksuppa.com",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/mareksuppa",
+    "other_social": [],
     "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "karpolan",
+    "name": "Anton Karpenko",
+    "github_url": "https://github.com/karpolan",
+    "categories": [
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "react-typescript-mui-with-auth-starter",
+        "url": "https://github.com/karpolan/react-typescript-mui-with-auth-starter",
+        "description": "[IMPORTANT] - better use Vite starter https://github.com/karpolan/react-mui-vite-ts instead of this \"Create React App + React + Material UI\" starter",
+        "stars": 55
+      },
+      {
+        "name": "react-mui-pro-starter",
+        "url": "https://github.com/karpolan/react-mui-pro-starter",
+        "description": "[IMPORTANT] - better use Vite starter https://github.com/karpolan/react-mui-vite-ts instead of this \"Create React App + Material UI\" starter",
+        "stars": 48
+      },
+      {
+        "name": "react-mui-vite-ts",
+        "url": "https://github.com/karpolan/react-mui-vite-ts",
+        "description": "Starter project for Vite with React + MUI using TypeScript",
+        "stars": 42
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "i@karpolan.com",
+    "blog": "https://www.patreon.com/karpolan",
+    "linkedin_url": "https://www.linkedin.com/in/karpolan/",
+    "x_url": "https://twitter.com/karpolan",
+    "other_social": [
+      {
+        "provider": "facebook",
+        "url": "https://www.facebook.com/karpolan/"
+      },
+      {
+        "provider": "generic",
+        "url": "https://linki.site/page/karpolan"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "skiselkov",
+    "name": "Saso Kiselkov",
+    "github_url": "https://github.com/skiselkov",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "BetterPushbackC",
+        "url": "https://github.com/skiselkov/BetterPushbackC",
+        "description": "This is the BetterPushback plugin for X-Plane 11 and X-Plane 12",
+        "stars": 498
+      },
+      {
+        "name": "librain",
+        "url": "https://github.com/skiselkov/librain",
+        "description": "Generic rain & ice effect library for X-Plane",
+        "stars": 96
+      },
+      {
+        "name": "libacfutils",
+        "url": "https://github.com/skiselkov/libacfutils",
+        "description": "",
+        "stars": 61
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "skiselkov@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "mfojtik",
+    "name": "Michal Fojtik",
+    "github_url": "https://github.com/mfojtik",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "sinatra-rabbit",
+        "url": "https://github.com/mfojtik/sinatra-rabbit",
+        "description": "Sinatra based framework and DSL for building rock-solid REST applications (like API's)",
+        "stars": 84
+      },
+      {
+        "name": "k8s-trigger-controller",
+        "url": "https://github.com/mfojtik/k8s-trigger-controller",
+        "description": "External controller that trigger Kubernetes Deployments on ConfigMap or Secret changes",
+        "stars": 51
+      },
+      {
+        "name": "goodmod",
+        "url": "https://github.com/mfojtik/goodmod",
+        "description": "A pocket knife tool for manipulating go.mod files",
+        "stars": 7
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "http://mfojtik.io",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/mfojtik",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "Tricertops",
+    "name": "Martin Kiss",
+    "github_url": "https://github.com/Tricertops",
+    "categories": [
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "KeepLayout",
+        "url": "https://github.com/Tricertops/KeepLayout",
+        "description": "Making Auto Layout easier to code.",
+        "stars": 828
+      },
+      {
+        "name": "Block-KVO",
+        "url": "https://github.com/Tricertops/Block-KVO",
+        "description": "Objective-C Key-Value Observing made easier with blocks",
+        "stars": 396
+      },
+      {
+        "name": "Objective-Chain",
+        "url": "https://github.com/Tricertops/Objective-Chain",
+        "description": "Object-oriented reactive framework, inspired by ReactiveCocoa",
+        "stars": 236
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia / Netherlands",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "Atoryx1s",
+    "name": "Nazar Adamenko",
+    "github_url": "https://github.com/Atoryx1s",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "NETWORK",
+        "url": "https://github.com/Atoryx1s/NETWORK",
+        "description": "",
+        "stars": 1
+      },
+      {
+        "name": "AutoFlow",
+        "url": "https://github.com/Atoryx1s/AutoFlow",
+        "description": "Development of a software solution for automating routine operations as a tool for saving resources",
+        "stars": 0
+      },
+      {
+        "name": "Atoryx1s",
+        "url": "https://github.com/Atoryx1s/Atoryx1s",
+        "description": "",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Košice, Slovakia",
+    "email": "nazaradamenko161@gmail.com",
+    "blog": "",
+    "linkedin_url": "https://www.linkedin.com/in/nazar-adamenko",
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "JAndrassy",
+    "name": "Juraj Andrássy",
+    "github_url": "https://github.com/JAndrassy",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "ArduinoOTA",
+        "url": "https://github.com/JAndrassy/ArduinoOTA",
+        "description": "Arduino library to upload sketch over network to Arduino board with WiFi or Ethernet libraries",
+        "stars": 535
+      },
+      {
+        "name": "WiFiEspAT",
+        "url": "https://github.com/JAndrassy/WiFiEspAT",
+        "description": "Arduino networking library. Standard Arduino WiFi networking API over ESP8266 or ESP32 AT commands.",
+        "stars": 361
+      },
+      {
+        "name": "TelnetStream",
+        "url": "https://github.com/JAndrassy/TelnetStream",
+        "description": "Arduino Stream implementation over Telnet for OTA logging and debugging",
+        "stars": 171
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://www.instagram.com/juraj_andrassy/",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "gabonator",
+    "name": "Gabriel Valky",
+    "github_url": "https://github.com/gabonator",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "LA104",
+        "url": "https://github.com/gabonator/LA104",
+        "description": "LA104 logic analyser alternative firmware and experiments",
+        "stars": 600
+      },
+      {
+        "name": "DS203",
+        "url": "https://github.com/gabonator/DS203",
+        "description": "DS203 quad oscilloscope firmware compatible with gcc",
+        "stars": 299
+      },
+      {
+        "name": "Work-in-progress",
+        "url": "https://github.com/gabonator/Work-in-progress",
+        "description": "Various unfinished or small projects",
+        "stars": 68
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": "https://www.linkedin.com/in/gabriel-v%C3%A1lky-266ba23b",
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "youtube",
+        "url": "https://www.youtube.com/@gabonator"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "mauron85",
+    "name": "Marián Hello",
+    "github_url": "https://github.com/mauron85",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "react-native-background-geolocation",
+        "url": "https://github.com/mauron85/react-native-background-geolocation",
+        "description": "Background and foreground geolocation plugin for React Native. Tracks user when app is running in background.",
+        "stars": 1353
+      },
+      {
+        "name": "react-native-background-geolocation-example",
+        "url": "https://github.com/mauron85/react-native-background-geolocation-example",
+        "description": "Example app of react-native-mauron85-background-geolocation component.",
+        "stars": 122
+      },
+      {
+        "name": "cordova-plugin-background-geolocation-example",
+        "url": "https://github.com/mauron85/cordova-plugin-background-geolocation-example",
+        "description": "",
+        "stars": 51
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -62,8 +1104,9 @@
     "name": "Martin Kubovčík",
     "github_url": "https://github.com/markub3327",
     "categories": [
-      "Classical ML",
-      "Deep Learning Frameworks"
+      "Data / AI",
+      "DevOps / Cloud",
+      "Languages"
     ],
     "top_projects": [
       {
@@ -77,6 +1120,12 @@
         "url": "https://github.com/markub3327/Solar-Transformer",
         "description": "Solar Irradiance Forecasting with Transformer model",
         "stars": 30
+      },
+      {
+        "name": "rl-toolkit",
+        "url": "https://github.com/markub3327/rl-toolkit",
+        "description": "RL-Toolkit: A Research Framework for Robotics",
+        "stars": 21
       }
     ],
     "hf_username": null,
@@ -87,7 +1136,95 @@
     "location": "Slovakia",
     "email": "markub3327@gmail.com",
     "blog": "",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/markub3327",
+    "other_social": [],
     "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "gamelaster",
+    "name": "Marek Kraus",
+    "github_url": "https://github.com/gamelaster",
+    "categories": [
+      "DevOps / Cloud",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "ArduinoGamepad",
+        "url": "https://github.com/gamelaster/ArduinoGamepad",
+        "description": "A GamePad HID library for Arduino Pro Micro/Leonardo (ATMega32u4)",
+        "stars": 96
+      },
+      {
+        "name": "FW1FontWrapper",
+        "url": "https://github.com/gamelaster/FW1FontWrapper",
+        "description": "FW1FontWrapper is a font wrapper library for drawing text using Direct3D 11",
+        "stars": 32
+      },
+      {
+        "name": "RTD2662",
+        "url": "https://github.com/gamelaster/RTD2662",
+        "description": "Source codes, materials of LCD controller chip RTD2662/RTD2660",
+        "stars": 29
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "http://marekkraus.sk/",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "ondrajz",
+    "name": "Ondrej Fabry",
+    "github_url": "https://github.com/ondrajz",
+    "categories": [
+      "Backend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "go-callvis",
+        "url": "https://github.com/ondrajz/go-callvis",
+        "description": "Visualize call graph of a Go program using Graphviz",
+        "stars": 6527
+      },
+      {
+        "name": "goexplorer",
+        "url": "https://github.com/ondrajz/goexplorer",
+        "description": "Interactive overview of Go packages using dynamic visualization.",
+        "stars": 178
+      },
+      {
+        "name": "shrinkurl",
+        "url": "https://github.com/ondrajz/shrinkurl",
+        "description": "Simple URL shortening service in Go.",
+        "stars": 8
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "ondrej@fabry.email",
+    "blog": "https://fabry.dev",
+    "linkedin_url": "https://www.linkedin.com/in/ondrajz",
+    "x_url": "https://twitter.com/ondrejfabry",
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -95,14 +1232,27 @@
     "name": "Michal Chvila",
     "github_url": "https://github.com/Electry",
     "categories": [
-      "LLM / NLP"
+      "Languages",
+      "Mobile"
     ],
     "top_projects": [
       {
-        "name": "opencode-jetbrains-ai-bridge",
-        "url": "https://github.com/Electry/opencode-jetbrains-ai-bridge",
-        "description": "Proof of concept plugin for OpenCode V2 that allows using GPT & Claude models via your JetBrains AI plan natively",
-        "stars": 0
+        "name": "VitaGrafix",
+        "url": "https://github.com/Electry/VitaGrafix",
+        "description": "VitaGrafix - taiHEN plugin that allows you to change resolution and FPS cap of PS Vita games",
+        "stars": 447
+      },
+      {
+        "name": "PSVshell",
+        "url": "https://github.com/Electry/PSVshell",
+        "description": "Yet another overclocking plugin",
+        "stars": 333
+      },
+      {
+        "name": "VitaGrafixPatchlist",
+        "url": "https://github.com/Electry/VitaGrafixPatchlist",
+        "description": "Collection of patches for VitaGrafix 5.0+",
+        "stars": 211
       }
     ],
     "hf_username": null,
@@ -113,6 +1263,9 @@
     "location": "Slovakia",
     "email": "dev@electry.sk",
     "blog": "https://electry.sk",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
@@ -121,9 +1274,25 @@
     "name": "Amos Bastian",
     "github_url": "https://github.com/amosbastian",
     "categories": [
-      "Classical ML"
+      "Backend",
+      "Data / AI",
+      "Frontend",
+      "Languages",
+      "Testing / QA"
     ],
     "top_projects": [
+      {
+        "name": "fpl",
+        "url": "https://github.com/amosbastian/fpl",
+        "description": "An asynchronous Python wrapper for the Fantasy Premier League API.",
+        "stars": 332
+      },
+      {
+        "name": "template",
+        "url": "https://github.com/amosbastian/template",
+        "description": "A Next.js 13 application with authentication and payments, built with PlanetScale, Drizzle ORM, Lucia, Tailwind and LemonSqueezy",
+        "stars": 239
+      },
       {
         "name": "understat",
         "url": "https://github.com/amosbastian/understat",
@@ -139,7 +1308,98 @@
     "location": "Banska Bystrica, Slovakia",
     "email": "amosbastian@gmail.com",
     "blog": "https://amosbastian.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "deathbeam",
+    "name": "Tomas Slusny",
+    "github_url": "https://github.com/deathbeam",
+    "categories": [
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "dotfiles",
+        "url": "https://github.com/deathbeam/dotfiles",
+        "description": "My awesome dotfiles :rocket:",
+        "stars": 111
+      },
+      {
+        "name": "autocomplete.nvim",
+        "url": "https://github.com/deathbeam/autocomplete.nvim",
+        "description": "Very simple and minimal autocompletion for cmdline and buffer using LSP and Tree-sitter with signature help",
+        "stars": 58
+      },
+      {
+        "name": "jua",
+        "url": "https://github.com/deathbeam/jua",
+        "description": "LuaJIT for Java on Windows, Mac OS X, Linux, Android and iOS.",
+        "stars": 54
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "slusnucky@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "zpl-zak",
+    "name": "Dominik Madarász",
+    "github_url": "https://github.com/zpl-zak",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "NEON86",
+        "url": "https://github.com/zpl-zak/NEON86",
+        "description": "A toy game engine reflecting on simplicity and retro approach to gamedev.",
+        "stars": 13
+      },
+      {
+        "name": "v4k-mirror",
+        "url": "https://github.com/zpl-zak/v4k-mirror",
+        "description": "Mirror repository of the V4K game engine",
+        "stars": 9
+      },
+      {
+        "name": "odin-zeromq",
+        "url": "https://github.com/zpl-zak/odin-zeromq",
+        "description": "Odin bindings for ZeroMQ distributed messaging library.",
+        "stars": 5
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia, Zvolen",
+    "email": "contact@madaraszd.net",
+    "blog": "https://madaraszd.net/",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/DMadarasz",
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://v4.games/"
+      }
+    ],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -147,9 +1407,22 @@
     "name": "Ilyar",
     "github_url": "https://github.com/ilyar",
     "categories": [
-      "LLM / NLP"
+      "Languages",
+      "Mobile"
     ],
     "top_projects": [
+      {
+        "name": "xsltproc",
+        "url": "https://github.com/ilyar/xsltproc",
+        "description": "Wrapper for xsltproc",
+        "stars": 16
+      },
+      {
+        "name": "deco",
+        "url": "https://github.com/ilyar/deco",
+        "description": "CLI for dev container ",
+        "stars": 3
+      },
       {
         "name": "aiqa",
         "url": "https://github.com/ilyar/aiqa",
@@ -165,7 +1438,158 @@
     "location": "Slovakia",
     "email": "ilyar.software@gmail.com",
     "blog": "https://ilyarsoftware.substack.com/",
+    "linkedin_url": "https://linkedin.com/in/ilyarsoftware/",
+    "x_url": "https://twitter.com/ilyarsoftware",
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://t.me/ilyarsoftware"
+      },
+      {
+        "provider": "generic",
+        "url": "https://wakatime.com/@ilyar"
+      }
+    ],
     "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "vojto",
+    "name": "Vojtech Rinik",
+    "github_url": "https://github.com/vojto",
+    "categories": [
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "react-swiftui",
+        "url": "https://github.com/vojto/react-swiftui",
+        "description": "SwiftUI-like API written in React",
+        "stars": 9
+      },
+      {
+        "name": "focusmate-hw",
+        "url": "https://github.com/vojto/focusmate-hw",
+        "description": "Desk display for Focusmate sessions on an M5Stack Core2: a Time Timer-style pie, a countdown and a clock",
+        "stars": 1
+      },
+      {
+        "name": "milestones",
+        "url": "https://github.com/vojto/milestones",
+        "description": "A local-first macOS app for seeing the shape of a year — a calendar of every month beside a timeline of milestones",
+        "stars": 1
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Kosice, Slovakia",
+    "email": "vojto@rinik.net",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/_vojto",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "amoledwatchfaces",
+    "name": "Tomas Marcincin",
+    "github_url": "https://github.com/amoledwatchfaces",
+    "categories": [
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "Complications-Suite-Wear-OS",
+        "url": "https://github.com/amoledwatchfaces/Complications-Suite-Wear-OS",
+        "description": "Complications Suite - Wear OS app",
+        "stars": 133
+      },
+      {
+        "name": "Solar-Path-Watch-Face-Wear-OS",
+        "url": "https://github.com/amoledwatchfaces/Solar-Path-Watch-Face-Wear-OS",
+        "description": "Track the 24-hour solar cycle, 5 twilight phases, and real-time sun position.",
+        "stars": 34
+      },
+      {
+        "name": "Pixel-Minimal-Watch-Face",
+        "url": "https://github.com/amoledwatchfaces/Pixel-Minimal-Watch-Face",
+        "description": "Made in Watch Face Format 2 (Wear OS 5+)",
+        "stars": 9
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "support@amoledwatchfaces.com",
+    "blog": "https://amoledwatchfaces.com",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/amoledwfs",
+    "other_social": [
+      {
+        "provider": "instagram",
+        "url": "https://instagram.com/amoledwatchfaces"
+      },
+      {
+        "provider": "facebook",
+        "url": "https://facebook.com/amoledwatchfaces"
+      },
+      {
+        "provider": "generic",
+        "url": "https://play.google.com/store/apps/dev?id=5591589606735981545"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "pshtif",
+    "name": "Peter @sHTiF Stefcek",
+    "github_url": "https://github.com/pshtif",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "Genome2D",
+        "url": "https://github.com/pshtif/Genome2D",
+        "description": "2D GPU Framework",
+        "stars": 217
+      },
+      {
+        "name": "RuntimeTransformHandle",
+        "url": "https://github.com/pshtif/RuntimeTransformHandle",
+        "description": "Runtime transform handle for Unity.",
+        "stars": 170
+      },
+      {
+        "name": "Dash",
+        "url": "https://github.com/pshtif/Dash",
+        "description": "Dash Animation System for Unity",
+        "stars": 74
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "pshtif@gmail.com",
+    "blog": "http://www.genome2d.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -173,9 +1597,23 @@
     "name": "Samuel",
     "github_url": "https://github.com/samuelpatro",
     "categories": [
-      "LLM / NLP"
+      "Backend",
+      "Languages",
+      "Mobile"
     ],
     "top_projects": [
+      {
+        "name": "contenteditor-plugin",
+        "url": "https://github.com/samuelpatro/contenteditor-plugin",
+        "description": "Edit your content in page - plugin for OctoberCMS",
+        "stars": 39
+      },
+      {
+        "name": "winpulse",
+        "url": "https://github.com/samuelpatro/winpulse",
+        "description": "One-command Windows health check with AI-powered analysis. Scans thermals, memory, security overhead, startup bloat, and more.",
+        "stars": 4
+      },
       {
         "name": "vibejuice",
         "url": "https://github.com/samuelpatro/vibejuice",
@@ -191,7 +1629,314 @@
     "location": "Slovakia",
     "email": null,
     "blog": "http://samuelpatro.com",
+    "linkedin_url": "https://www.linkedin.com/in/samuel-patro/",
+    "x_url": "https://twitter.com/sam_uell1",
+    "other_social": [],
     "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "alailsonko",
+    "name": "Alailson",
+    "github_url": "https://github.com/alailsonko",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "100days-100projects",
+        "url": "https://github.com/alailsonko/100days-100projects",
+        "description": "100 days, 100 projects. Using HTML, CSS, Javascript/Typescript.",
+        "stars": 4
+      },
+      {
+        "name": "golang-blog",
+        "url": "https://github.com/alailsonko/golang-blog",
+        "description": "Blog application using golang packages. ",
+        "stars": 2
+      },
+      {
+        "name": "alailsonko",
+        "url": "https://github.com/alailsonko/alailsonko",
+        "description": "",
+        "stars": 2
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "jsarenik",
+    "name": "Ján Sáreník",
+    "github_url": "https://github.com/jsarenik",
+    "categories": [
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "bitcoin-faucet-shell",
+        "url": "https://github.com/jsarenik/bitcoin-faucet-shell",
+        "description": "POSIX-shell bitcoin faucet",
+        "stars": 23
+      },
+      {
+        "name": "price.bublina.eu.org",
+        "url": "https://github.com/jsarenik/price.bublina.eu.org",
+        "description": "Clone of the most comprehensive all-time Bitcoin price history chart found at https://bitcoin.zorinaq.com/price/",
+        "stars": 4
+      },
+      {
+        "name": "cls",
+        "url": "https://github.com/jsarenik/cls",
+        "description": "C-Lightning scripts (and two Bitcoin Core-related)",
+        "stars": 4
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "jajomojo@gmail.com",
+    "blog": "https://järok.bublina.eu.org",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "michalkvasnicak",
+    "name": "Michal Kvasničák",
+    "github_url": "https://github.com/michalkvasnicak",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages",
+      "Mobile",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "aws-lambda-graphql",
+        "url": "https://github.com/michalkvasnicak/aws-lambda-graphql",
+        "description": "Use AWS Lambda + AWS API Gateway v2 for GraphQL subscriptions over WebSocket and AWS API Gateway v1 for HTTP",
+        "stars": 458
+      },
+      {
+        "name": "babel-plugin-css-modules-transform",
+        "url": "https://github.com/michalkvasnicak/babel-plugin-css-modules-transform",
+        "description": "Extract css class names from required css module files, so we can render it on server.",
+        "stars": 327
+      },
+      {
+        "name": "routex",
+        "url": "https://github.com/michalkvasnicak/routex",
+        "description": "THIS PROJECT IS NO LONGER MAINTAINED AND HAS BEEN UNPUBLISHED FROM NPM",
+        "stars": 41
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Trnava, Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": "https://x.com/michalkvasnicak",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "ostrolucky",
+    "name": "Gabriel Ostrolucký",
+    "github_url": "https://github.com/ostrolucky",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "Bulk-Bing-Image-downloader",
+        "url": "https://github.com/ostrolucky/Bulk-Bing-Image-downloader",
+        "description": "Download full sized images returned from bing image search",
+        "stars": 375
+      },
+      {
+        "name": "stdinho",
+        "url": "https://github.com/ostrolucky/stdinho",
+        "description": ":electric_plug: Turn any STDIN/STDOUT into HTTP server",
+        "stars": 132
+      },
+      {
+        "name": "Simple-Subreddit-Image-Downloader",
+        "url": "https://github.com/ostrolucky/Simple-Subreddit-Image-Downloader",
+        "description": "Bash script for downloading images posted in specific subreddit with minimal footprint",
+        "stars": 55
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Brezno, Slovakia",
+    "email": "gadelat@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": "https://x.com/gostrolucky",
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://t.me/ostrolucky"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "zaggino",
+    "name": "Martin Zagora",
+    "github_url": "https://github.com/zaggino",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "z-schema",
+        "url": "https://github.com/zaggino/z-schema",
+        "description": "JSON Schema validator written in JavaScript for NodeJS and Browsers",
+        "stars": 351
+      },
+      {
+        "name": "fix-filenames",
+        "url": "https://github.com/zaggino/fix-filenames",
+        "description": "renames non ascii characters in files and directories",
+        "stars": 2
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Trnava, Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "Peter-L-SVK",
+    "name": "Peter Leukanič",
+    "github_url": "https://github.com/Peter-L-SVK",
+    "categories": [
+      "Backend",
+      "Data / AI",
+      "Frontend",
+      "Languages",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "pro_audio_config",
+        "url": "https://github.com/Peter-L-SVK/pro_audio_config",
+        "description": "A modern graphical audio-quality setting system tool based on GTK3 and Rust for Linux or other Unix-likes using GTK based or compatible GUI like KDE Plasma...",
+        "stars": 45
+      },
+      {
+        "name": "PyLine",
+        "url": "https://github.com/Peter-L-SVK/PyLine",
+        "description": "Simple, but comprehensive CLI based text editor in Python3 for Unix-like OSes with external hooks support.",
+        "stars": 8
+      },
+      {
+        "name": "sql-schema-studio",
+        "url": "https://github.com/Peter-L-SVK/sql-schema-studio",
+        "description": "Intelligent PostgreSQL management platform. Native Python3/GTK4 desktop IDE with multi-tab SQL editor, visual schema designer, AI index advisor, and a Python/Perl plugin system. Built-in hooks include Auto-Vacuum Advisor, Schema Anomaly Detector, PostgreSQL Log Analyzer, the Keboola normalizer pipeline and Polars-powered statistical analysis. ",
+        "stars": 5
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Košice, Slovakia",
+    "email": "leukanic.peter@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://buymeacoffee.com/leukanic.peter"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "tomaskovacik",
+    "name": "Tomáš Kováčik",
+    "github_url": "https://github.com/tomaskovacik",
+    "categories": [
+      "DevOps / Cloud",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "vwcdavr",
+        "url": "https://github.com/tomaskovacik/vwcdavr",
+        "description": "AVR alternative to vwcdpic HW+SW",
+        "stars": 65
+      },
+      {
+        "name": "BK3254",
+        "url": "https://github.com/tomaskovacik/BK3254",
+        "description": "arduino library for A2DP bluetooth  module based on BK3254 chip from Beken Corp (F-6888) and BK3266 based module F-6988 from HYT named HY5066 (not HY5066SR)",
+        "stars": 58
+      },
+      {
+        "name": "VAGFISWriter",
+        "url": "https://github.com/tomaskovacik/VAGFISWriter",
+        "description": "Arduino library for writing to V.A.G. cluster display over 3line protocol (no can-bus)",
+        "stars": 30
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "www.nodomain.sk",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -199,14 +1944,29 @@
     "name": "Robert Važan",
     "github_url": "https://github.com/robertvazan",
     "categories": [
-      "LLM / NLP"
+      "Backend",
+      "Data / AI",
+      "Languages",
+      "Mobile"
     ],
     "top_projects": [
       {
-        "name": "llobot",
-        "url": "https://github.com/robertvazan/llobot",
-        "description": "Obsolete custom LLM agent",
-        "stars": 0
+        "name": "sourceafis-java",
+        "url": "https://github.com/robertvazan/sourceafis-java",
+        "description": "Fingerprint recognition engine for Java that takes a pair of human fingerprint images and returns their similarity score. Supports efficient 1:N search.",
+        "stars": 294
+      },
+      {
+        "name": "fingerprint-datasets",
+        "url": "https://github.com/robertvazan/fingerprint-datasets",
+        "description": "Curated collection of human fingerprint datasets suitable for research and evaluation of fingerprint recognition algorithms.",
+        "stars": 179
+      },
+      {
+        "name": "noexception",
+        "url": "https://github.com/robertvazan/noexception",
+        "description": "Java library for handling exceptions in concise, unified, and architecturally clean way.",
+        "stars": 131
       }
     ],
     "hf_username": null,
@@ -217,6 +1977,9 @@
     "location": "Bratislava, Slovakia",
     "email": null,
     "blog": "https://robert.machinezoo.com/",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
@@ -225,14 +1988,26 @@
     "name": "Juraj Nyíri",
     "github_url": "https://github.com/JurajNyiri",
     "categories": [
-      "LLM / NLP"
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "hass-codex-conversation",
-        "url": "https://github.com/JurajNyiri/hass-codex-conversation",
-        "description": "Home Assistant custom integration that adds an OpenAI Codex-powered conversation agent with configurable subentries for Assist and AI Task.",
-        "stars": 0
+        "name": "HomeAssistant-Tapo-Control",
+        "url": "https://github.com/JurajNyiri/HomeAssistant-Tapo-Control",
+        "description": "Control for Tapo cameras as a Home Assistant component",
+        "stars": 2062
+      },
+      {
+        "name": "pytapo",
+        "url": "https://github.com/JurajNyiri/pytapo",
+        "description": "Python library for communication with Tapo Cameras",
+        "stars": 492
+      },
+      {
+        "name": "PlexMeetsHomeAssistant",
+        "url": "https://github.com/JurajNyiri/PlexMeetsHomeAssistant",
+        "description": "Custom card which integrates plex into Home Assistant and makes it possible to launch movies or tv shows on TV with a simple click",
+        "stars": 149
       }
     ],
     "hf_username": null,
@@ -243,28 +2018,176 @@
     "location": "Slovakia",
     "email": "juraj.nyiri@gmail.com",
     "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
   {
-    "login": "JakubVojvoda",
-    "name": "Jakub Vojvoda",
-    "github_url": "https://github.com/JakubVojvoda",
+    "login": "reneklacan",
+    "name": "René Klačan",
+    "github_url": "https://github.com/reneklacan",
     "categories": [
-      "Computer Vision"
+      "DevOps / Cloud",
+      "Languages",
+      "Mobile"
     ],
     "top_projects": [
       {
-        "name": "motion-segmentation",
-        "url": "https://github.com/JakubVojvoda/motion-segmentation",
-        "description": "Robust motion detection/segmentation using OpenCV",
-        "stars": 8
+        "name": "symspell",
+        "url": "https://github.com/reneklacan/symspell",
+        "description": "Spelling correction & Fuzzy search based on Symmetric Delete spelling correction algorithm.",
+        "stars": 145
       },
       {
-        "name": "filtering-mcu-fpga",
-        "url": "https://github.com/JakubVojvoda/filtering-mcu-fpga",
-        "description": "Simple image filtering and segmentation on MCU and FPGA",
-        "stars": 4
+        "name": "cayley-ruby",
+        "url": "https://github.com/reneklacan/cayley-ruby",
+        "description": "A Ruby library for working with Google's Cayley graph database.",
+        "stars": 23
+      },
+      {
+        "name": "sea-orm-typed-id",
+        "url": "https://github.com/reneklacan/sea-orm-typed-id",
+        "description": "",
+        "stars": 12
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "rene@klacan.sk",
+    "blog": "https://klacan.sk",
+    "linkedin_url": "https://www.linkedin.com/in/reneklacan/",
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "bluesky",
+        "url": "https://bsky.app/profile/rene.klacan.sk"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "Kin69",
+    "name": "Kin",
+    "github_url": "https://github.com/Kin69",
+    "categories": [
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "EasyNotes",
+        "url": "https://github.com/Kin69/EasyNotes",
+        "description": "EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization.",
+        "stars": 1099
+      },
+      {
+        "name": "Athena",
+        "url": "https://github.com/Kin69/Athena",
+        "description": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.",
+        "stars": 745
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia, Bratislava",
+    "email": "Vexzure@proton.me",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "equivalent",
+    "name": "Tomas Valent",
+    "github_url": "https://github.com/equivalent",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "scrapbook2",
+        "url": "https://github.com/equivalent/scrapbook2",
+        "description": "web-development notes and archive of Old articles ",
+        "stars": 142
+      },
+      {
+        "name": "public_uid",
+        "url": "https://github.com/equivalent/public_uid",
+        "description": "Automatically generates random unique public id for record.",
+        "stars": 74
+      },
+      {
+        "name": "copy_carrierwave_file",
+        "url": "https://github.com/equivalent/copy_carrierwave_file",
+        "description": "Copy Carrierwave files between records",
+        "stars": 36
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "tomas.valent@gmail.com",
+    "blog": "http://www.eq8.eu",
+    "linkedin_url": "https://www.linkedin.com/in/tomasvalent",
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "http://stackoverflow.com/users/473040/equivalent8"
+      },
+      {
+        "provider": "generic",
+        "url": "https://rubygems.org/profiles/equivalent"
+      },
+      {
+        "provider": "generic",
+        "url": "https://hub.docker.com/u/equivalent/"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "matus-chochlik",
+    "name": "Matus Chochlik",
+    "github_url": "https://github.com/matus-chochlik",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "oglplus",
+        "url": "https://github.com/matus-chochlik/oglplus",
+        "description": "OGLplus is a collection of open-source, cross-platform libraries which implement an object-oriented facade over the OpenGL® (version 3 and higher) and also OpenAL® (version 1.1) and EGL (version 1.4) C-language APIs. It provides wrappers which automate resource and object management and make the use of these libraries in C++ safer and more convenient.",
+        "stars": 497
+      },
+      {
+        "name": "ctcache",
+        "url": "https://github.com/matus-chochlik/ctcache",
+        "description": "Cache for clang-tidy static analysis results",
+        "stars": 149
+      },
+      {
+        "name": "mirror",
+        "url": "https://github.com/matus-chochlik/mirror",
+        "description": "Reflection utilities and examples built on top of C++ reflection TS implementation.",
+        "stars": 115
       }
     ],
     "hf_username": null,
@@ -274,8 +2197,57 @@
     "hf_spaces": null,
     "location": "Slovakia",
     "email": null,
-    "blog": "https://jakubvojvoda.com",
-    "first_seen": "2026-11-16",
+    "blog": "https://codeberg.org/matus_chochlik",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "mastodon",
+        "url": "https://mastodon.online/@matus_chochlik"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "mostypc123",
+    "name": "Juraj Kollár",
+    "github_url": "https://github.com/mostypc123",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "XediX",
+        "url": "https://github.com/mostypc123/XediX",
+        "description": "🖥️💻 XediX is a text editor for coding in 🐍 Python built with wxPython.",
+        "stars": 26
+      },
+      {
+        "name": "sendit",
+        "url": "https://github.com/mostypc123/sendit",
+        "description": "A serverless chat app written in C++",
+        "stars": 6
+      },
+      {
+        "name": "jason",
+        "url": "https://github.com/mostypc123/jason",
+        "description": "A useless, unfinished markup language based on JSON. Made as a joke.",
+        "stars": 3
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "mostypc123@redroselinux.org",
+    "blog": "https://mostypc123.is-a.dev",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -283,14 +2255,29 @@
     "name": "Michal Takac",
     "github_url": "https://github.com/michaltakac",
     "categories": [
-      "LLM / NLP"
+      "Data / AI",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "paperclip-hermes-codex-auth",
-        "url": "https://github.com/michaltakac/paperclip-hermes-codex-auth",
-        "description": "Sign a Hermes agent in to OpenAI Codex from the Paperclip UI. Device-code login per Hermes profile, so each agent holds its own credential instead of sharing one that rotates.",
-        "stars": 0
+        "name": "awesome-crypto-ai-agents",
+        "url": "https://github.com/michaltakac/awesome-crypto-ai-agents",
+        "description": "A curated list of production‑oriented projects powering the crypto economy for AI agents - including agent‑to‑agent workflows, AI DAOs, and human‑in‑the‑loop systems with on‑chain payments.",
+        "stars": 7
+      },
+      {
+        "name": "r3f-llm",
+        "url": "https://github.com/michaltakac/r3f-llm",
+        "description": "",
+        "stars": 4
+      },
+      {
+        "name": "explorable-research",
+        "url": "https://github.com/michaltakac/explorable-research",
+        "description": "Create interactive explorable web pages from research articles",
+        "stars": 1
       }
     ],
     "hf_username": null,
@@ -301,21 +2288,758 @@
     "location": "Košice, Slovakia",
     "email": "hello@michaltakac.com",
     "blog": "https://michaltakac.com",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/michaltakac",
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
   {
-    "login": "drahosp",
-    "name": "Peter Drahoš",
-    "github_url": "https://github.com/drahosp",
+    "login": "Alemiz112",
+    "name": "Alex Mizerak",
+    "github_url": "https://github.com/Alemiz112",
     "categories": [
-      "Deep Learning Frameworks"
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "ort",
-        "url": "https://github.com/drahosp/ort",
-        "description": "Fast ML inference & training for Rust with ONNX Runtime",
+        "name": "StarGate-Atlantis",
+        "url": "https://github.com/Alemiz112/StarGate-Atlantis",
+        "description": "This is stable and fast plugin for PMMP that allows server connect to WaterDog plugin StarGate. It make easier communication between server. Includes API for custom packets, transferring players and more",
+        "stars": 52
+      },
+      {
+        "name": "StarGate",
+        "url": "https://github.com/Alemiz112/StarGate",
+        "description": "StarGate is plugin for WaterDog (mcbe and mcpc proxy) that allows commuinication between servers/clients.",
+        "stars": 50
+      },
+      {
+        "name": "netbird-connect",
+        "url": "https://github.com/Alemiz112/netbird-connect",
+        "description": "A GitHub Action to connect your workflow to your Netbird network. Inspired by tailscale/github-action.",
+        "stars": 32
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "potyl",
+    "name": "Emmanuel Rodriguez",
+    "github_url": "https://github.com/potyl",
+    "categories": [
+      "DevOps / Cloud",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "Webkit",
+        "url": "https://github.com/potyl/Webkit",
+        "description": "Having fun with WebKit",
+        "stars": 32
+      },
+      {
+        "name": "speedkey",
+        "url": "https://github.com/potyl/speedkey",
+        "description": "WEP key generator for SpeedTouch modems",
+        "stars": 14
+      },
+      {
+        "name": "xacobeo",
+        "url": "https://github.com/potyl/xacobeo",
+        "description": "Simple XPath visualizer",
+        "stars": 11
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "mireq",
+    "name": "Miroslav Bendík",
+    "github_url": "https://github.com/mireq",
+    "categories": [
+      "Backend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "esp32-simulator",
+        "url": "https://github.com/mireq/esp32-simulator",
+        "description": "ESP32 simulator for Linux",
+        "stars": 128
+      },
+      {
+        "name": "rEFInd-Catalina",
+        "url": "https://github.com/mireq/rEFInd-Catalina",
+        "description": "Catalina theme ported from clover to rEFInd",
+        "stars": 107
+      },
+      {
+        "name": "luasnip-snippets",
+        "url": "https://github.com/mireq/luasnip-snippets",
+        "description": "Vim-snippets (snipMate & UltiSnip Snippets) converted to native luasnip snippets",
+        "stars": 79
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Poprad, Slovakia",
+    "email": "miroslav.bendik@gmail.com",
+    "blog": "http://linuxos.sk",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "jariq",
+    "name": "Jaroslav Imrich",
+    "github_url": "https://github.com/jariq",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "Pkcs7SignatureGenerator",
+        "url": "https://github.com/jariq/Pkcs7SignatureGenerator",
+        "description": "Sample application for signature creation with Pkcs11Interop, BouncyCastle and MimeKit libraries",
+        "stars": 33
+      },
+      {
+        "name": "Pkcs11Interop.PDF",
+        "url": "https://github.com/jariq/Pkcs11Interop.PDF",
+        "description": "DEPRECATED - Integration layer for Pkcs11Interop and iText (iTextSharp) libraries",
+        "stars": 19
+      },
+      {
+        "name": "IPwatchD",
+        "url": "https://github.com/jariq/IPwatchD",
+        "description": "IP conflict detection tool for Linux",
+        "stars": 17
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "jimrich@jimrich.sk",
+    "blog": "https://jimrich.sk",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/jimrichsk",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "tkislan",
+    "name": "Tomas Kislan",
+    "github_url": "https://github.com/tkislan",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "base64",
+        "url": "https://github.com/tkislan/base64",
+        "description": "Base64 encoding and decoding for C++ projects",
+        "stars": 88
+      },
+      {
+        "name": "url_encoder",
+        "url": "https://github.com/tkislan/url_encoder",
+        "description": "C++ implementation of URL encoding (http://tools.ietf.org/html/rfc3986)",
+        "stars": 9
+      },
+      {
+        "name": "teaching-nextjs-2024",
+        "url": "https://github.com/tkislan/teaching-nextjs-2024",
+        "description": "",
+        "stars": 5
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": "kislan.tomas@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "dpino",
+    "name": "Diego Pino",
+    "github_url": "https://github.com/dpino",
+    "categories": [
+      "Languages",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "xdp_ipv6_filter",
+        "url": "https://github.com/dpino/xdp_ipv6_filter",
+        "description": "IPv6 filter using XDP/eBPF",
+        "stars": 25
+      },
+      {
+        "name": "NDS-Rom-Trimmer",
+        "url": "https://github.com/dpino/NDS-Rom-Trimmer",
+        "description": "ROM Trimmer for Nintendo DS",
+        "stars": 8
+      },
+      {
+        "name": "Snippr",
+        "url": "https://github.com/dpino/Snippr",
+        "description": "Code snippet manager",
+        "stars": 5
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Košice, Slovakia",
+    "email": null,
+    "blog": "https://blogs.igalia.com/dpino/",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "mastodon",
+        "url": "https://mastodon.social/@dpino"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "michalspano",
+    "name": "Michal Spano",
+    "github_url": "https://github.com/michalspano",
+    "categories": [
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "terminarium",
+        "url": "https://github.com/michalspano/terminarium",
+        "description": "🌱 An Enclosure System – Terrarium + Terminal",
+        "stars": 4
+      },
+      {
+        "name": "dotfiles",
+        "url": "https://github.com/michalspano/dotfiles",
+        "description": "🔧 dotfiles, scripts, env, config, etc. :: [unix & macOS]",
+        "stars": 3
+      },
+      {
+        "name": "AppointDent",
+        "url": "https://github.com/michalspano/AppointDent",
+        "description": "🦷🪥｟ AppointDent ｠is a fullstack webapp for managing dentists, clients, and their appointments.",
+        "stars": 3
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Sweden/Holland/Slovakia/...",
+    "email": "spano@michalspano.com",
+    "blog": "michalspano.com",
+    "linkedin_url": null,
+    "x_url": "https://x.com/michalspano",
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://orcid.org/0009-0000-5211-5334"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "mikegogulski",
+    "name": "Mike Gogulski",
+    "github_url": "https://github.com/mikegogulski",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "bitcoin-wp-e-commerce",
+        "url": "https://github.com/mikegogulski/bitcoin-wp-e-commerce",
+        "description": "Bitcoin payment plugin for WP e-Commerce for WordPress",
+        "stars": 25
+      },
+      {
+        "name": "bitcoin-virtuemart",
+        "url": "https://github.com/mikegogulski/bitcoin-virtuemart",
+        "description": "Bitcoin payment plugin for VirtueMart shopping cart for Joomla!",
+        "stars": 11
+      },
+      {
+        "name": "Mephbot",
+        "url": "https://github.com/mikegogulski/Mephbot",
+        "description": "Mephbot for Diablo 2 LoD 1.0x godidon'tremembertherevnumber",
+        "stars": 10
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/mikegogulski",
+    "other_social": [],
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "webmandesign",
+    "name": "Oliver Juhas",
+    "github_url": "https://github.com/webmandesign",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "jquery.hoverdir",
+        "url": "https://github.com/webmandesign/jquery.hoverdir",
+        "description": "jQuery HoverDir plugin",
+        "stars": 37
+      },
+      {
+        "name": "demo-content",
+        "url": "https://github.com/webmandesign/demo-content",
+        "description": "Demo content XML files for WebMan Design WordPress themes.",
+        "stars": 17
+      },
+      {
+        "name": "playground-for-beaver-themer",
+        "url": "https://github.com/webmandesign/playground-for-beaver-themer",
+        "description": "Simple bare-bone WordPress theme for Beaver Themer plugin.",
+        "stars": 17
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia, EU",
+    "email": null,
+    "blog": "https://www.webmandesign.eu",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "jozefizso",
+    "name": "Jozef Izso",
+    "github_url": "https://github.com/jozefizso",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "SystemWrapper",
+        "url": "https://github.com/jozefizso/SystemWrapper",
+        "description": ".NET library for easier testing of system APIs.",
+        "stars": 176
+      },
+      {
+        "name": "apimonitor",
+        "url": "https://github.com/jozefizso/apimonitor",
+        "description": "",
+        "stars": 116
+      },
+      {
+        "name": "generator-license",
+        "url": "https://github.com/jozefizso/generator-license",
+        "description": "Yeoman Generator - License",
+        "stars": 59
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "michaljuhas",
+    "name": "Michal Juhas",
+    "github_url": "https://github.com/michaljuhas",
+    "categories": [
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "SQL-training-advanced",
+        "url": "https://github.com/michaljuhas/SQL-training-advanced",
+        "description": "SQL-training-advanced",
+        "stars": 57
+      },
+      {
+        "name": "sample-database",
+        "url": "https://github.com/michaljuhas/sample-database",
+        "description": "This is a sample database used for my SQL course on Udemy.",
+        "stars": 24
+      },
+      {
+        "name": "recruiting-skills",
+        "url": "https://github.com/michaljuhas/recruiting-skills",
+        "description": "A suite of focused Claude Code Agent Skills for recruiters & talent acquisition managers.",
+        "stars": 17
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "michal@michaljuhas.com",
+    "blog": "https://michaljuhas.com",
+    "linkedin_url": "https://www.linkedin.com/in/michaljuhas/",
+    "x_url": "https://twitter.com/juhasm",
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://aiwithmichal.com"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "jbutko",
+    "name": "Jozef Butko",
+    "github_url": "https://github.com/jbutko",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "AngularJS-Boilerplate",
+        "url": "https://github.com/jbutko/AngularJS-Boilerplate",
+        "description": "Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks",
+        "stars": 402
+      },
+      {
+        "name": "stickyNavbar.js",
+        "url": "https://github.com/jbutko/stickyNavbar.js",
+        "description": "stickyNavbar.js: Fancy sticky navigation jQuery plugin with smart anchor link highlighting",
+        "stars": 281
+      },
+      {
+        "name": "ExpressJS-Socket.IO-AngularJS-Boilerplate",
+        "url": "https://github.com/jbutko/ExpressJS-Socket.IO-AngularJS-Boilerplate",
+        "description": "ExpressJS, Socket.IO & AngularJS Boilerplate",
+        "stars": 55
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://www.jozefbutko.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "tekk",
+    "name": "Peter Javorsky",
+    "github_url": "https://github.com/tekk",
+    "categories": [
+      "Data / AI",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "map-tiles-downloader",
+        "url": "https://github.com/tekk/map-tiles-downloader",
+        "description": "Map tiles downloader for Meshtastic / MeshCore apps",
+        "stars": 38
+      },
+      {
+        "name": "LoRa_APRS_iGate-OE5BPA-Repeater",
+        "url": "https://github.com/tekk/LoRa_APRS_iGate-OE5BPA-Repeater",
+        "description": "Lora APRS Digipeater",
+        "stars": 6
+      },
+      {
+        "name": "yaesu_ft2d_ft3d_ft5d_config_converter",
+        "url": "https://github.com/tekk/yaesu_ft2d_ft3d_ft5d_config_converter",
+        "description": "Single page application running in browser to convert between Yaesu's FT2D, FT3D and FT5D configuration CSV files, as those are incompatible between the trasceivers. This is a simple way to convert your channels configuration and port it to another handheld.",
+        "stars": 6
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Banska Bystrica, Slovakia",
+    "email": "tekk.sk@gmail.com",
+    "blog": "https://tekk.eu",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/tekkoooo",
+    "other_social": [],
+    "first_seen": "2026-11-16",
+    "is_new": false
+  },
+  {
+    "login": "andrewshadura",
+    "name": "Andrej Shadura",
+    "github_url": "https://github.com/andrewshadura",
+    "categories": [
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "git-crecord",
+        "url": "https://github.com/andrewshadura/git-crecord",
+        "description": "Git subcommand to interactively select changes to commit or stage",
+        "stars": 217
+      },
+      {
+        "name": "tnat64",
+        "url": "https://github.com/andrewshadura/tnat64",
+        "description": "IPv4 to IPv6 interceptor",
+        "stars": 70
+      },
+      {
+        "name": "inputplug",
+        "url": "https://github.com/andrewshadura/inputplug",
+        "description": "XInput event monitor daemon",
+        "stars": 44
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": "andrew@shadura.me",
+    "blog": "https://shadura.me",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://blog.shadura.me"
+      },
+      {
+        "provider": "mastodon",
+        "url": "https://mastodon.social/@andrew_shadura"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "oreqizer",
+    "name": "Boris",
+    "github_url": "https://github.com/oreqizer",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "reactizer-2016",
+        "url": "https://github.com/oreqizer/reactizer-2016",
+        "description": "(UNMAINTAINED) The most hipster React and React Native boilerplate! :smiling_imp:",
+        "stars": 72
+      },
+      {
+        "name": "rust-notes",
+        "url": "https://github.com/oreqizer/rust-notes",
+        "description": "Terse Rust learning material. :crab:",
+        "stars": 59
+      },
+      {
+        "name": "reactizer",
+        "url": "https://github.com/oreqizer/reactizer",
+        "description": "Monorepo with all things React. :wrench:",
+        "stars": 22
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "https://boris.lol",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "j91321",
+    "name": "Ján Trenčanský",
+    "github_url": "https://github.com/j91321",
+    "categories": [
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "rext",
+        "url": "https://github.com/j91321/rext",
+        "description": "Router EXploitation Toolkit - small toolkit for easy creation and usage of various python scripts that work with embedded devices.",
+        "stars": 350
+      },
+      {
+        "name": "ansible-role-sysmon",
+        "url": "https://github.com/j91321/ansible-role-sysmon",
+        "description": "Ansible role for installing Sysmon with popular config files included.",
+        "stars": 24
+      },
+      {
+        "name": "conti-manuals-analysis",
+        "url": "https://github.com/j91321/conti-manuals-analysis",
+        "description": "Analysis of techniques used by Conti ransomware affiliates from their leaked manuals.",
+        "stars": 19
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovakia",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "mastodon",
+        "url": "https://infosec.exchange/@j91321"
+      },
+      {
+        "provider": "bluesky",
+        "url": "https://bsky.app/profile/j91321.bsky.social"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "effektsvk",
+    "name": "Erik Slovák",
+    "github_url": "https://github.com/effektsvk",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages",
+      "Mobile",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "bodymovin-numbercount-aescript",
+        "url": "https://github.com/effektsvk/bodymovin-numbercount-aescript",
+        "description": "An After Effects slider control alternative for bodymovin",
+        "stars": 5
+      },
+      {
+        "name": "getchrome-nextjs",
+        "url": "https://github.com/effektsvk/getchrome-nextjs",
+        "description": "Install Chrome with a single PowerShell command",
+        "stars": 1
+      },
+      {
+        "name": "arc-alts-comparison",
+        "url": "https://github.com/effektsvk/arc-alts-comparison",
+        "description": "Feature comparison of Arc browser alternatives",
         "stars": 0
       }
     ],
@@ -325,8 +3049,355 @@
     "hf_datasets": null,
     "hf_spaces": null,
     "location": "Bratislava, Slovakia",
-    "email": "drahosp@gmail.com",
+    "email": "erik.slovak7@gmail.com",
+    "blog": "https://eriks.tools",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/effeKtSVK",
+    "other_social": [
+      {
+        "provider": "twitch",
+        "url": "https://twitch.tv/effeKtSVK"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "CyberScoper",
+    "name": "Aleksandr Murzin",
+    "github_url": "https://github.com/CyberScoper",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "antitelega",
+        "url": "https://github.com/CyberScoper/antitelega",
+        "description": "Go userbot для Telegram — массовый скан чатов на Telega-юзеров через VK Calls API",
+        "stars": 9
+      },
+      {
+        "name": "stressertelegram",
+        "url": "https://github.com/CyberScoper/stressertelegram",
+        "description": "A Python-based stress testing tool that interacts with Telegram bots. This project allows users to send a large number of requests to a specified Telegram bot to test its resilience and performance under high load.",
+        "stars": 6
+      },
+      {
+        "name": "telegram_bot_ip",
+        "url": "https://github.com/CyberScoper/telegram_bot_ip",
+        "description": "This is a simple Telegram bot that provides geolocation information for IP addresses. The bot supports multiple languages, including English, Russian, and Slovak.",
+        "stars": 6
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovakia",
+    "email": null,
     "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "kuzmany",
+    "name": "Zdeno Kuzmany",
+    "github_url": "https://github.com/kuzmany",
+    "categories": [
+      "Backend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "browser-annotations",
+        "url": "https://github.com/kuzmany/browser-annotations",
+        "description": "Visual web annotation overlay → markdown for AI coding agents (Claude Code, Cursor). CDP-injected, no extension, no MCP.",
+        "stars": 3
+      },
+      {
+        "name": "slovak-humanizer",
+        "url": "https://github.com/kuzmany/slovak-humanizer",
+        "description": "Claude Code skill that removes AI-generated writing tells from Slovak text and fixes typical Slovak language errors (bohemisms, anglicisms, diacritics, calques, AI clichés). Install via skills.sh.",
+        "stars": 2
+      },
+      {
+        "name": "nativephp-mobile-skill",
+        "url": "https://github.com/kuzmany/nativephp-mobile-skill",
+        "description": "Claude Code / skills.sh agent skill for NativePHP Mobile v3.0–3.1 — build iOS/Android apps with Laravel",
+        "stars": 1
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak republic",
+    "email": "zku@webmecanik.com",
+    "blog": "https://webmecanik.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "Raiper34",
+    "name": "Filip Gulán",
+    "github_url": "https://github.com/Raiper34",
+    "categories": [
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "awesome-phaser",
+        "url": "https://github.com/Raiper34/awesome-phaser",
+        "description": "A curated list of  awesome Phaser libraries, resources and shiny things.",
+        "stars": 517
+      },
+      {
+        "name": "m3u-parser-generator",
+        "url": "https://github.com/Raiper34/m3u-parser-generator",
+        "description": "Library to parse and generate m3u or m3u8 IPTV playlist files",
+        "stars": 52
+      },
+      {
+        "name": "device-rotation-prompt",
+        "url": "https://github.com/Raiper34/device-rotation-prompt",
+        "description": "The device rotation prompt is the library to show a fullscreen prompt message when device orientation is different than you expect.",
+        "stars": 19
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak republic",
+    "email": "filip@gulan.eu",
+    "blog": "https://gulan.eu/",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "demjanp",
+    "name": "Peter Demján",
+    "github_url": "https://github.com/demjanp",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "deposit",
+        "url": "https://github.com/demjanp/deposit",
+        "description": "Graph database for scientific data collection",
+        "stars": 7
+      },
+      {
+        "name": "CeraMatch",
+        "url": "https://github.com/demjanp/CeraMatch",
+        "description": "Visual shape-matching and classification of ceramics",
+        "stars": 7
+      },
+      {
+        "name": "clustering_14C",
+        "url": "https://github.com/demjanp/clustering_14C",
+        "description": "Clustering of calibrated radiocarbon dates",
+        "stars": 6
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Dobrohošť, Slovak Republic",
+    "email": "peter.demjan@gmail.com",
+    "blog": "laseraidedprofiler.com",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/p_demjan",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "tomasko126",
+    "name": "Tomáš Taro",
+    "github_url": "https://github.com/tomasko126",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "easylistczechandslovak",
+        "url": "https://github.com/tomasko126/easylistczechandslovak",
+        "description": "EasyList Czech and Slovak is an official filter list for uBlock Origin, AdBlock, Adblock Plus and other ad blockers out there.",
+        "stars": 135
+      },
+      {
+        "name": "BlackBerry-10-Radio-Stream-App",
+        "url": "https://github.com/tomasko126/BlackBerry-10-Radio-Stream-App",
+        "description": "Online radio stream app built for BlackBerry 10 OS written in BlackBerry Cascades (JavaScript/C++/QML)",
+        "stars": 6
+      },
+      {
+        "name": "notemark",
+        "url": "https://github.com/tomasko126/notemark",
+        "description": "Simple extension for saving URLs for later visit",
+        "stars": 3
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": "tomasko126@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "martinkubecka",
+    "name": "Martin Kubečka",
+    "github_url": "https://github.com/martinkubecka",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "C2Detective",
+        "url": "https://github.com/martinkubecka/C2Detective",
+        "description": ":mag: Application for detecting command and control (C2) communication through network traffic analysis.",
+        "stars": 17
+      },
+      {
+        "name": "C2Hunter",
+        "url": "https://github.com/martinkubecka/C2Hunter",
+        "description": ":eagle:  Use fingerprinting to actively hunt for Command and Control servers on Shodan. Process threat feeds from Abuse.ch services to create a local database of C2 servers.",
+        "stars": 11
+      },
+      {
+        "name": "OhMyDoS",
+        "url": "https://github.com/martinkubecka/OhMyDoS",
+        "description": ":no_entry: Console application abusing Wordpress API called XML-RPC and its functions with aim of Denial-of-Service.",
+        "stars": 8
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic",
+    "email": null,
+    "blog": "https://martinkubecka.sk",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "kyemets",
+    "name": "Kostiantyn Yemets",
+    "github_url": "https://github.com/kyemets",
+    "categories": [
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "insta-save-telegram-bot",
+        "url": "https://github.com/kyemets/insta-save-telegram-bot",
+        "description": "telegram bot for anonymous browsing and downloads of instagram stories",
+        "stars": 52
+      },
+      {
+        "name": "taxi-app",
+        "url": "https://github.com/kyemets/taxi-app",
+        "description": "Taxi App is a web application built with React, Tailwind CSS and Next.js that allows users to book taxis and view them on a map. It utilizes Redux for state management and integrates with Google Maps API for location services",
+        "stars": 2
+      },
+      {
+        "name": "todorant-mcp",
+        "url": "https://github.com/kyemets/todorant-mcp",
+        "description": "MCP server for Todorant — manage your one-task-at-a-time todos from Claude and other MCP clients",
+        "stars": 1
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic",
+    "email": null,
+    "blog": "",
+    "linkedin_url": "https://www.linkedin.com/in/kostiantyn-yemets-390950228/",
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "selmeci",
+    "name": "Roman",
+    "github_url": "https://github.com/selmeci",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "dgraph-tonic",
+        "url": "https://github.com/selmeci/dgraph-tonic",
+        "description": "Async/Sync gRPC client for Dgraph DB",
+        "stars": 88
+      },
+      {
+        "name": "cascara",
+        "url": "https://github.com/selmeci/cascara",
+        "description": "An implementation of TinyLFU cache",
+        "stars": 15
+      },
+      {
+        "name": "effect-ts-harness",
+        "url": "https://github.com/selmeci/effect-ts-harness",
+        "description": "Effect-TS v4 + Alchemy v2 Agentic Engineering Harness (ArchiMate Ontology, Omnigraph .gq, Clef Decision Model & Deterministic Gates)",
+        "stars": 1
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": "selmeci.roman@gmail.com",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
@@ -335,10 +3406,16 @@
     "name": "Patrik Goldschmidt",
     "github_url": "https://github.com/xGoldy",
     "categories": [
-      "Classical ML",
-      "Deep Learning Frameworks"
+      "Data / AI",
+      "Languages"
     ],
     "top_projects": [
+      {
+        "name": "lucidcv",
+        "url": "https://github.com/xGoldy/lucidcv",
+        "description": "ATS-safe LaTeX template for modern resumes (CVs). LuaLaTeX, real word spaces, tagged structure, PDF/UA-1, PDF/A-2b, verified against 17 text extractors.",
+        "stars": 115
+      },
       {
         "name": "nid-datasets",
         "url": "https://github.com/xGoldy/nid-datasets",
@@ -350,12 +3427,6 @@
         "url": "https://github.com/xGoldy/Windower",
         "description": "Source code of \"Windower: Feature Extraction for Real-Time DDoS Detection Using Machine Learning\" paper.",
         "stars": 8
-      },
-      {
-        "name": "02456-deep-learning-with-PyTorch",
-        "url": "https://github.com/xGoldy/02456-deep-learning-with-PyTorch",
-        "description": "Exercises and supplementary material for the deep learning course 02456 using PyTorch.",
-        "stars": 0
       }
     ],
     "hf_username": null,
@@ -366,21 +3437,211 @@
     "location": "Bratislava, Slovak Republic",
     "email": "goldschmidt.patrik@gmail.com",
     "blog": "",
+    "linkedin_url": "https://www.linkedin.com/in/goldschmidt-patrik/",
+    "x_url": null,
+    "other_social": [
+      {
+        "provider": "generic",
+        "url": "https://www.researchgate.net/profile/Patrik-Goldschmidt"
+      }
+    ],
     "first_seen": "2026-11-16",
     "is_new": false
   },
   {
-    "login": "vygidor",
-    "name": "V",
-    "github_url": "https://github.com/vygidor",
+    "login": "iNviNho",
+    "name": "Vladimír Vráb",
+    "github_url": "https://github.com/iNviNho",
     "categories": [
-      "Classical ML"
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "predmachlearncoursera",
-        "url": "https://github.com/vygidor/predmachlearncoursera",
-        "description": "Practical Machine Learning @ Coursera",
+        "name": "gameengine",
+        "url": "https://github.com/iNviNho/gameengine",
+        "description": "Small and tiny game engine based on OpenGL 3.0",
+        "stars": 1
+      },
+      {
+        "name": "myhomesensors",
+        "url": "https://github.com/iNviNho/myhomesensors",
+        "description": "ESPHome yaml configurations for my home sensors",
+        "stars": 0
+      },
+      {
+        "name": "gameformykids",
+        "url": "https://github.com/iNviNho/gameformykids",
+        "description": "I was always curious about how 3D games work and how are they created. To combine my curiosity with my kids' possible future interest in games, I decided to create a simple game for them.",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak republic",
+    "email": "vladino.vrab@gmail.com",
+    "blog": "https://vladino.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "frkosk",
+    "name": "František Kocúrik",
+    "github_url": "https://github.com/frkosk",
+    "categories": [
+      "Frontend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "session-recorder",
+        "url": "https://github.com/frkosk/session-recorder",
+        "description": "",
+        "stars": 1
+      },
+      {
+        "name": "sitemap-to-screenshot",
+        "url": "https://github.com/frkosk/sitemap-to-screenshot",
+        "description": "Automate screenshot generation from sitemap URLs using Puppeteer – capture full-page screenshots effortlessly!",
+        "stars": 1
+      },
+      {
+        "name": "iphone-notes-pipeline",
+        "url": "https://github.com/frkosk/iphone-notes-pipeline",
+        "description": "iPhone Voice Memos → Obsidian transcript pipeline, local on Apple Silicon (Voz + Who)",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "rossnomann",
+    "name": "Ross Nomann",
+    "github_url": "https://github.com/rossnomann",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "telefeed",
+        "url": "https://github.com/rossnomann/telefeed",
+        "description": "An RSS/Atom bot for telegram channels",
+        "stars": 16
+      },
+      {
+        "name": "ape",
+        "url": "https://github.com/rossnomann/ape",
+        "description": "A library for reading and writing APEv2 tags",
+        "stars": 7
+      },
+      {
+        "name": "srtparse",
+        "url": "https://github.com/rossnomann/srtparse",
+        "description": "A library for reading SRT Subtitles",
+        "stars": 6
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic",
+    "email": "rossnomann@protonmail.com",
+    "blog": "https://rossnomann.com",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "volmir",
+    "name": "Prokhnenko Vladimir",
+    "github_url": "https://github.com/volmir",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages",
+      "Mobile"
+    ],
+    "top_projects": [
+      {
+        "name": "dalt-framework",
+        "url": "https://github.com/volmir/dalt-framework",
+        "description": "Dalt Framework",
+        "stars": 15
+      },
+      {
+        "name": "words-api",
+        "url": "https://github.com/volmir/words-api",
+        "description": "The application on YII2 for drawing up different words from one long word",
+        "stars": 8
+      },
+      {
+        "name": "dividing-device",
+        "url": "https://github.com/volmir/dividing-device",
+        "description": "Dividing device",
+        "stars": 2
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": "volmir@ukr.net",
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "lkurcak",
+    "name": "Ľubomír Kurčák",
+    "github_url": "https://github.com/lkurcak",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "t-lang.nvim",
+        "url": "https://github.com/lkurcak/t-lang.nvim",
+        "description": "",
+        "stars": 1
+      },
+      {
+        "name": "auburn",
+        "url": "https://github.com/lkurcak/auburn",
+        "description": "Fast and simple physics library.",
+        "stars": 1
+      },
+      {
+        "name": "server-monitor",
+        "url": "https://github.com/lkurcak/server-monitor",
+        "description": "",
         "stars": 0
       }
     ],
@@ -392,7 +3653,10 @@
     "location": "Bratislava, Slovak Republic",
     "email": null,
     "blog": "",
-    "first_seen": "2026-11-16",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   },
   {
@@ -400,13 +3664,26 @@
     "name": "Ing. Ján Janušek",
     "github_url": "https://github.com/janjanusek",
     "categories": [
-      "Computer Vision"
+      "Data / AI",
+      "Languages"
     ],
     "top_projects": [
       {
         "name": "Computer-vision-APP",
         "url": "https://github.com/janjanusek/Computer-vision-APP",
         "description": "This project is application for computer vision. Project includes DLL to my first version of my AI SDK. This SDK is not available online because I'm working on better implementation of this SDK. App was presented to my supervisor here: https://www.youtube.com/watch?v=bLEpKUo93fo&feature=youtu.be . Please be aware this description is targeted for real person who I know so respect my language.",
+        "stars": 0
+      },
+      {
+        "name": "Toolkit.NET",
+        "url": "https://github.com/janjanusek/Toolkit.NET",
+        "description": "Sometimes when I'm facing to some problem instead of research I come up with my own solution. I think few of tem I can share with you.",
+        "stars": 0
+      },
+      {
+        "name": "Cache",
+        "url": "https://github.com/janjanusek/Cache",
+        "description": "",
         "stars": 0
       }
     ],
@@ -418,6 +3695,9 @@
     "location": "Slovak republic, Žilina",
     "email": null,
     "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
@@ -426,13 +3706,27 @@
     "name": "Vitalii Liubimov",
     "github_url": "https://github.com/Polokij",
     "categories": [
-      "LLM / NLP"
+      "Backend",
+      "DevOps / Cloud",
+      "Languages"
     ],
     "top_projects": [
       {
-        "name": "laravel-ai-translator",
-        "url": "https://github.com/Polokij/laravel-ai-translator",
-        "description": "Automatic translate your language files into many languages using AI like Claude, GPT and etc.",
+        "name": "laravel-vault-env",
+        "url": "https://github.com/Polokij/laravel-vault-env",
+        "description": "Hashicorp Vault client for Laravel with possibility set the env variables from Vault secret dynamically",
+        "stars": 4
+      },
+      {
+        "name": "laravel-opensearch",
+        "url": "https://github.com/Polokij/laravel-opensearch",
+        "description": "",
+        "stars": 0
+      },
+      {
+        "name": "jCollage",
+        "url": "https://github.com/Polokij/jCollage",
+        "description": "jCollage",
         "stars": 0
       }
     ],
@@ -444,21 +3738,37 @@
     "location": "Bratislava city, Slovak Republic",
     "email": "vitalii@liubimov.org",
     "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
     "first_seen": "2026-11-16",
     "is_new": false
   },
   {
-    "login": "jschon1991",
-    "name": "Jakub Schön",
-    "github_url": "https://github.com/jschon1991",
+    "login": "hilltty",
+    "name": "Dmytro Loiko",
+    "github_url": "https://github.com/hilltty",
     "categories": [
-      "Deep Learning Frameworks"
+      "Languages",
+      "Mobile"
     ],
     "top_projects": [
       {
-        "name": "ParkingSpotter",
-        "url": "https://github.com/jschon1991/ParkingSpotter",
-        "description": "Application for recognising free parking spots from camera feed using TensorFlow neural network for classification and Django framework to display data.",
+        "name": "hilltty-flags",
+        "url": "https://github.com/hilltty/hilltty-flags",
+        "description": "Maximum performance launch flags for Minecraft Server",
+        "stars": 97
+      },
+      {
+        "name": "my-fish-config",
+        "url": "https://github.com/hilltty/my-fish-config",
+        "description": "My personal Fish shell configuration. Not recommended for general use.",
+        "stars": 0
+      },
+      {
+        "name": "hilltty-page",
+        "url": "https://github.com/hilltty/hilltty-page",
+        "description": "Personal home page.",
         "stars": 0
       }
     ],
@@ -467,10 +3777,271 @@
     "hf_models": null,
     "hf_datasets": null,
     "hf_spaces": null,
-    "location": "Slovak republic, Banska Bystrica",
-    "email": "j.schon1991@gmail.com",
+    "location": "Slovak Republic",
+    "email": null,
+    "blog": "hilltty.zip",
+    "linkedin_url": "https://www.linkedin.com/in/hilltty/",
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "patrikcelko",
+    "name": "Patrik Čelko",
+    "github_url": "https://github.com/patrikcelko",
+    "categories": [
+      "Backend",
+      "DevOps / Cloud",
+      "Frontend",
+      "Languages",
+      "Testing / QA"
+    ],
+    "top_projects": [
+      {
+        "name": "32-bit-processor-Emulator",
+        "url": "https://github.com/patrikcelko/32-bit-processor-Emulator",
+        "description": "A complete implementation of a 32-bit processor emulator with assembler, virtual CPU, and instruction set architecture.",
+        "stars": 1
+      },
+      {
+        "name": "Logitech-rally-bar-restarter",
+        "url": "https://github.com/patrikcelko/Logitech-rally-bar-restarter",
+        "description": "Simple program in Python whose goal is to automatically restart Logitech RALLY BAR without human touch.",
+        "stars": 1
+      },
+      {
+        "name": "Local-Authority",
+        "url": "https://github.com/patrikcelko/Local-Authority",
+        "description": "",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic (Slovakia)",
+    "email": null,
+    "blog": "https://patrikcelko.com/",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/PatrikCelko",
+    "other_social": [
+      {
+        "provider": "instagram",
+        "url": "https://www.instagram.com/patrikcelko/"
+      },
+      {
+        "provider": "facebook",
+        "url": "https://www.facebook.com/celko.patrik/"
+      }
+    ],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "lubosgarancovsky",
+    "name": "Lubos Garancovsky",
+    "github_url": "https://github.com/lubosgarancovsky",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "lubosgarancovsky",
+        "url": "https://github.com/lubosgarancovsky/lubosgarancovsky",
+        "description": "",
+        "stars": 1
+      },
+      {
+        "name": "nvim-config",
+        "url": "https://github.com/lubosgarancovsky/nvim-config",
+        "description": "My personal neovim configuration",
+        "stars": 0
+      },
+      {
+        "name": "go-kit",
+        "url": "https://github.com/lubosgarancovsky/go-kit",
+        "description": "Utility kit for faster web service creation in Go",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic",
+    "email": null,
+    "blog": "https://lubosgarancovsky.github.io/v2/",
+    "linkedin_url": null,
+    "x_url": "https://twitter.com/LGarancovsky",
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "skorecko",
+    "name": "Štefan Korečko",
+    "github_url": "https://github.com/skorecko",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "GameStudioTAcad",
+        "url": "https://github.com/skorecko/GameStudioTAcad",
+        "description": "",
+        "stars": 2
+      },
+      {
+        "name": "GameStudioTA",
+        "url": "https://github.com/skorecko/GameStudioTA",
+        "description": "",
+        "stars": 0
+      },
+      {
+        "name": "myTreesB4appReact",
+        "url": "https://github.com/skorecko/myTreesB4appReact",
+        "description": "Created with CodeSandbox",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Košice, Slovak Republic",
+    "email": null,
     "blog": "",
-    "first_seen": "2026-11-16",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "NebsterSK",
+    "name": "Lukáš Neuschl",
+    "github_url": "https://github.com/NebsterSK",
+    "categories": [
+      "Backend",
+      "Frontend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "claude-settings",
+        "url": "https://github.com/NebsterSK/claude-settings",
+        "description": "Global settings for Claude",
+        "stars": 0
+      },
+      {
+        "name": "euflorea",
+        "url": "https://github.com/NebsterSK/euflorea",
+        "description": "",
+        "stars": 0
+      },
+      {
+        "name": "netrac",
+        "url": "https://github.com/NebsterSK/netrac",
+        "description": "",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": null,
+    "blog": "https://legacy-upgrade.com/",
+    "linkedin_url": "https://www.linkedin.com/in/lukas-neuschl/",
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "staruch",
+    "name": "David S.",
+    "github_url": "https://github.com/staruch",
+    "categories": [
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "dtse_assignment",
+        "url": "https://github.com/staruch/dtse_assignment",
+        "description": "DTSE House Price Prediction Pipeline",
+        "stars": 0
+      },
+      {
+        "name": "university-assignments",
+        "url": "https://github.com/staruch/university-assignments",
+        "description": "JAVA, C++ school assignments",
+        "stars": 0
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Bratislava, Slovak Republic",
+    "email": null,
+    "blog": "staruch.eu, abenio.com",
+    "linkedin_url": "https://www.linkedin.com/in/staruch/",
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
+    "is_new": false
+  },
+  {
+    "login": "immutability",
+    "name": "Radoslav Bielik",
+    "github_url": "https://github.com/immutability",
+    "categories": [
+      "Backend",
+      "Languages"
+    ],
+    "top_projects": [
+      {
+        "name": "acarsdec-parser",
+        "url": "https://github.com/immutability/acarsdec-parser",
+        "description": "A simple bash parser for the acarsdec utility",
+        "stars": 2
+      },
+      {
+        "name": "Hello-World",
+        "url": "https://github.com/immutability/Hello-World",
+        "description": "just testing",
+        "stars": 1
+      },
+      {
+        "name": "GeoPuzzle-for-GeoGet",
+        "url": "https://github.com/immutability/GeoPuzzle-for-GeoGet",
+        "description": "A simple geocaching plugin for GeoGet - automatically generates GeoPuzzles from your geocache database",
+        "stars": 1
+      }
+    ],
+    "hf_username": null,
+    "hf_url": null,
+    "hf_models": null,
+    "hf_datasets": null,
+    "hf_spaces": null,
+    "location": "Slovak Republic",
+    "email": null,
+    "blog": "",
+    "linkedin_url": null,
+    "x_url": null,
+    "other_social": [],
+    "first_seen": "2026-11-17",
     "is_new": false
   }
 ]

@@ -2,193 +2,1018 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Slovak AI Talent Monitor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slovak Tech Talent Monitor</title>
 <style>
-  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; margin: 2rem; background: #0f1115; color: #e6e6e6; }
-  h1 { font-size: 1.4rem; }
+  :root { color-scheme: dark; }
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; margin: 0; padding: 2rem; background: #0f1115; color: #e6e6e6; line-height: 1.5; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.5rem; }
   .meta { color: #9aa0a6; margin-bottom: 1.5rem; }
-  table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
-  th, td { border: 1px solid #333; padding: 8px 10px; text-align: left; font-size: 0.9rem; vertical-align: top; }
-  th { background: #1a1d24; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 1rem; }
+  #search { background: #1a1d24; border: 1px solid #333; color: #e6e6e6; padding: 8px 12px; border-radius: 6px; font-size: 0.9rem; min-width: 220px; }
+  #search:focus { outline: none; border-color: #7cb7ff; }
+  .chip-filter { background: #1a1d24; border: 1px solid #333; color: #c9ccd1; padding: 5px 11px; border-radius: 999px; font-size: 0.8rem; cursor: pointer; }
+  .chip-filter:hover { border-color: #555; }
+  .chip-filter.active { background: #2a5d8f; border-color: #7cb7ff; color: #fff; }
+  .table-wrap { overflow-x: auto; border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 1rem; min-width: 900px; }
+  th, td { border: 1px solid #2a2d34; padding: 8px 10px; text-align: left; font-size: 0.9rem; vertical-align: top; }
+  th { background: #1a1d24; position: sticky; top: 0; }
+  tr:nth-child(even) td { background: #15171d; }
   a { color: #7cb7ff; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .badge { background: #2e7d32; color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; }
+  .chip { display: inline-block; background: #22262e; color: #c9ccd1; font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; margin: 1px 3px 1px 0; white-space: nowrap; }
   .note { color: #9aa0a6; font-size: 0.85rem; margin-top: 2rem; }
+  tr.hidden { display: none; }
 </style>
 </head>
 <body>
-  <h1>Slovak AI Talent Monitor</h1>
-  <div class="meta">Last updated: 2026-11-16 14:23 UTC &middot; 17 tracked profiles &middot; 0 new this run</div>
+  <h1>Slovak Tech Talent Monitor</h1>
+  <div class="meta">Last updated: 2026-11-17 09:59 UTC &middot; 92 tracked profiles &middot; 0 new this run</div>
+
+  <div class="controls">
+    <input type="search" id="search" placeholder="Search name, login, location...">
+    <button type="button" class="chip-filter" data-category="Backend">Backend</button><button type="button" class="chip-filter" data-category="Data / AI">Data / AI</button><button type="button" class="chip-filter" data-category="DevOps / Cloud">DevOps / Cloud</button><button type="button" class="chip-filter" data-category="Frontend">Frontend</button><button type="button" class="chip-filter" data-category="Languages">Languages</button><button type="button" class="chip-filter" data-category="Mobile">Mobile</button><button type="button" class="chip-filter" data-category="Testing / QA">Testing / QA</button>
+  </div>
 
   <h2>New since last run (0)</h2>
-  <table>
-    <tr><th>Name</th><th>AI tech stack</th><th>Top projects</th><th>Hugging Face</th><th>Location</th><th>Contact</th><th>First seen</th></tr>
-    <tr><td colspan="7">No new profiles this run.</td></tr>
+  <div class="table-wrap">
+  <table data-table="new">
+    <tr><th>Name</th><th>Tech stack</th><th>Top projects</th><th>Hugging Face</th><th>Location</th><th>Contact</th><th>Social</th><th>First seen</th></tr>
+    <tr><td colspan="8">No new profiles this run.</td></tr>
   </table>
+  </div>
 
-  <h2>All tracked profiles (17)</h2>
-  <table>
-    <tr><th>Name</th><th>AI tech stack</th><th>Top projects</th><th>Hugging Face</th><th>Location</th><th>Contact</th><th>First seen</th></tr>
+  <h2>All tracked profiles (92)</h2>
+  <div class="table-wrap">
+  <table data-table="all">
+    <tr><th>Name</th><th>Tech stack</th><th>Top projects</th><th>Hugging Face</th><th>Location</th><th>Contact</th><th>Social</th><th>First seen</th></tr>
     
-        <tr>
+        <tr data-search="filip jerga jerga99 slovakia" data-categories="Data / AI|Frontend|Languages">
           <td><a href="https://github.com/Jerga99" target="_blank">Filip Jerga</a> (@Jerga99)</td>
-          <td>Classical ML</td>
-          <td><a href="https://github.com/Jerga99/neural-network-course" target="_blank">neural-network-course</a> — Neural Network Course in JS</td>
+          <td><span class="chip">Data / AI</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/Jerga99/electron-react-boilerplate" target="_blank">electron-react-boilerplate</a> — Course on how to create Electron Chat application<br><a href="https://github.com/Jerga99/bwm-ng" target="_blank">bwm-ng</a> — Course to create a Airbnb like app in React, Angular and Node<br><a href="https://github.com/Jerga99/nft-marketplace" target="_blank">nft-marketplace</a> — NFT Marketplace on Ethereum Blockchain based on course. Made in React/Next JS, Solidity and Typescript.</td>
           <td>—</td>
           <td>Slovakia</td>
           <td>jerga99@gmail.com<br><a href="https://eincode.com" target="_blank">https://eincode.com</a></td>
+          <td><a href="https://www.linkedin.com/in/filip-jerga-5949b8106/" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/filip0x1" target="_blank">X</a> &middot; <a href="https://www.youtube.com/c/Eincode" target="_blank">Youtube</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="filip hric filiphric senec, slovakia" data-categories="Backend|Data / AI|Frontend|Languages|Mobile|Testing / QA">
+          <td><a href="https://github.com/filiphric" target="_blank">Filip Hric</a> (@filiphric)</td>
+          <td><span class="chip">Backend</span><span class="chip">Data / AI</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/filiphric/cypress-plugin-api" target="_blank">cypress-plugin-api</a> — Cypress plugin to show your API information in the Cypress UI runner<br><a href="https://github.com/filiphric/cypress-plugin-steps" target="_blank">cypress-plugin-steps</a><br><a href="https://github.com/filiphric/trelloapp-workshop-app" target="_blank">trelloapp-workshop-app</a></td>
+          <td>—</td>
+          <td>Senec, Slovakia</td>
+          <td><a href="https://filiphric.com" target="_blank">https://filiphric.com</a></td>
+          <td><a href="http://www.linkedin.com/in/filip-hric" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/filip_hric" target="_blank">X</a> &middot; <a href="https://www.youtube.com/@filip_hric" target="_blank">Youtube</a> &middot; <a href="https://filiphric.com" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="radovan kavicky radovankavicky bratislava, slovakia" data-categories="Data / AI|Languages">
+          <td><a href="https://github.com/radovankavicky" target="_blank">Radovan Kavicky</a> (@radovankavicky)</td>
+          <td><span class="chip">Data / AI</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/radovankavicky/economy" target="_blank">economy</a> — Forecast macroeconomic indicators<br><a href="https://github.com/radovankavicky/INWTUtils" target="_blank">INWTUtils</a> — R package with utility functions used by INWT Statistics<br><a href="https://github.com/radovankavicky/PyDataSKMeetup29" target="_blank">PyDataSKMeetup29</a> — Slides + materials from 29th of PyData Slovakia</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>radovan.kavicky@gmail.com<br><a href="https://www.linkedin.com/in/radovankavicky" target="_blank">https://www.linkedin.com/in/radovankavicky</a></td>
+          <td><a href="https://twitter.com/radovankavicky" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="mikulas florek nem0 slovakia, bratislava" data-categories="Languages">
+          <td><a href="https://github.com/nem0" target="_blank">Mikulas Florek</a> (@nem0)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/nem0/LumixEngine" target="_blank">LumixEngine</a> — 3D C++ Game Engine - yet another open source game engine<br><a href="https://github.com/nem0/OpenFBX" target="_blank">OpenFBX</a> — Lightweight open source FBX importer<br><a href="https://github.com/nem0/lumixengine_maps" target="_blank">lumixengine_maps</a> — Map downloader for Lumix Engine </td>
+          <td>—</td>
+          <td>Slovakia, Bratislava</td>
+          <td>mikulas.florek@gamedev.sk<br><a href="https://twitter.com/mikulasflorek" target="_blank">https://twitter.com/mikulasflorek</a></td>
+          <td><a href="https://twitter.com/mikulasflorek" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="jan garaj jangaraj united kingdom/slovakia" data-categories="Backend|DevOps / Cloud|Languages">
+          <td><a href="https://github.com/jangaraj" target="_blank">Jan Garaj</a> (@jangaraj)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/jangaraj/keycloak-with-opentelemetry" target="_blank">keycloak-with-opentelemetry</a><br><a href="https://github.com/jangaraj/vuetify-keycloak-theme" target="_blank">vuetify-keycloak-theme</a> — Proof of concept: how to use Vuetify in Keycloak theme<br><a href="https://github.com/jangaraj/keycloak-cors-issue-debugging" target="_blank">keycloak-cors-issue-debugging</a> — Recommendations how to solve/debug CORS issues, when Keycloak IDP is used</td>
+          <td>—</td>
+          <td>United Kingdom/Slovakia</td>
+          <td>jan.garaj@gmail.com<br><a href="http://www.jangaraj.com" target="_blank">http://www.jangaraj.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="lukáš lalinský lalinsky trenčín, slovakia" data-categories="DevOps / Cloud|Languages">
+          <td><a href="https://github.com/lalinsky" target="_blank">Lukáš Lalinský</a> (@lalinsky)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/lalinsky/zio" target="_blank">zio</a> — Async I/O framework for Zig<br><a href="https://github.com/lalinsky/dusty" target="_blank">dusty</a> — HTTP client/server library for Zig<br><a href="https://github.com/lalinsky/zt" target="_blank">zt</a> — HTML template language that compiles to Zig</td>
+          <td>—</td>
+          <td>Trenčín, Slovakia</td>
+          <td>lukas@lalinsky.com<br><a href="https://lalinsky.com" target="_blank">https://lalinsky.com</a></td>
+          <td><a href="https://bsky.app/profile/lukaslalinsky.bsky.social" target="_blank">Bluesky</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ingbrzy ingbrzy slovakia, eu" data-categories="Languages|Mobile">
+          <td><a href="https://github.com/ingbrzy" target="_blank">ingbrzy</a> (@ingbrzy)</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/ingbrzy/Xiaomi.eu-MIUIv14-XML-Compare" target="_blank">Xiaomi.eu-MIUIv14-XML-Compare</a> — MIUI 14 XML Daily Compare for Xiaomi.eu builds<br><a href="https://github.com/ingbrzy/Xiaomi.eu-HyperOS-1.0-XML-Compare" target="_blank">Xiaomi.eu-HyperOS-1.0-XML-Compare</a> — HyperOS 1.0 XML Weekly Compare for Xiaomi.eu builds<br><a href="https://github.com/ingbrzy/Xiaomi.eu-MIUIv10-XML-Compare" target="_blank">Xiaomi.eu-MIUIv10-XML-Compare</a> — MIUI 10 XML Daily Compare for Xiaomi.eu builds</td>
+          <td>—</td>
+          <td>Slovakia, EU</td>
+          <td><a href="http://www.miuios.cz" target="_blank">http://www.miuios.cz</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="matej bendík matejbendik slovakia" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/MatejBendik" target="_blank">Matej Bendík</a> (@MatejBendik)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/MatejBendik/promptzone" target="_blank">promptzone</a> — Promptzone is an AI prompting tool for modern world to discover, create and share creative prompts.<br><a href="https://github.com/MatejBendik/MatejBendik" target="_blank">MatejBendik</a><br><a href="https://github.com/MatejBendik/MakeDock" target="_blank">MakeDock</a> — Create beautiful macOS-style dock images in seconds.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://matejbendik.com" target="_blank">matejbendik.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="csaba kissi ckissi slovakia" data-categories="Backend|Frontend|Languages|Mobile">
+          <td><a href="https://github.com/ckissi" target="_blank">Csaba Kissi</a> (@ckissi)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/ckissi/Learn-by-projects" target="_blank">Learn-by-projects</a> — Programming tutorials for C, C#, Python, Javascript, Typescript, React, Go, HTML/CSS, Java. PHP and more<br><a href="https://github.com/ckissi/kinetics" target="_blank">kinetics</a> — A library of interface animations built on spring physics instead of fixed-duration easing.<br><a href="https://github.com/ckissi/responsive-html-email-templates" target="_blank">responsive-html-email-templates</a> — Collection of Free responsive HTML templates for Startups</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://www.csabakissi.com" target="_blank">https://www.csabakissi.com</a></td>
+          <td><a href="https://www.linkedin.com/in/csaba-kissi/" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/csaba_kissi" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="jozef steinhübl xhyrom slovakia" data-categories="Languages">
+          <td><a href="https://github.com/xhyrom" target="_blank">Jozef Steinhübl</a> (@xhyrom)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/xhyrom/zed-discord-presence" target="_blank">zed-discord-presence</a> — extension for zed that adds support for discord rich presence using lsp<br><a href="https://github.com/xhyrom/discord-datamining" target="_blank">discord-datamining</a> — repository offering datamining and analyzing web builds, host builds, articles, blog posts, policies, jobs, @discord github and their domain(s)<br><a href="https://github.com/xhyrom/bun-discord-bot" target="_blank">bun-discord-bot</a> — official discord bot for bun server</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>jozef@steinhubl.com<br><a href="https://steinhubl.com" target="_blank">https://steinhubl.com</a></td>
+          <td><a href="https://www.linkedin.com/in/jozefsteinhubl/" target="_blank">LinkedIn</a> &middot; <a href="https://links.xhyrom.dev" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="adam hamsik haad bratislava slovakia" data-categories="Backend|DevOps / Cloud|Languages|Mobile">
+          <td><a href="https://github.com/haad" target="_blank">Adam Hamsik</a> (@haad)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/haad/proxychains" target="_blank">proxychains</a> — proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: &quot;user/pass&quot; for SOCKS4/5, &quot;basic&quot; for HTTP.<br><a href="https://github.com/haad/arandr" target="_blank">arandr</a> — ARandR: Another XRandR GUI<br><a href="https://github.com/haad/net-snmp" target="_blank">net-snmp</a> — net-snmp repository with ocfs &amp; ocfs2 support.</td>
+          <td>—</td>
+          <td>Bratislava Slovakia</td>
+          <td>haaaad@gmail.com<br><a href="https://www.lablabs.io" target="_blank">https://www.lablabs.io</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="marek suscak mareksuscak kosice, slovakia" data-categories="Backend|DevOps / Cloud|Frontend|Languages">
+          <td><a href="https://github.com/mareksuscak" target="_blank">Marek Suscak</a> (@mareksuscak)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/mareksuscak/cs50" target="_blank">cs50</a> — 🎓 Harvard CS50x — 2018 solutions 👨‍🏫<br><a href="https://github.com/mareksuscak/favs" target="_blank">favs</a> — 📚 A curated collection of great resources I stumbled upon throughout my career.<br><a href="https://github.com/mareksuscak/asus-pce-n53-linux" target="_blank">asus-pce-n53-linux</a> — 🤖 Asus PCE-N53 Linux Driver for Kernel versions 3.x, 4.x and 5.x</td>
+          <td>—</td>
+          <td>Kosice, Slovakia</td>
+          <td>marek.suscak@gmail.com<br><a href="https://www.suscak.com/" target="_blank">https://www.suscak.com/</a></td>
+          <td><a href="https://www.linkedin.com/in/mareksuscak/" target="_blank">LinkedIn</a> &middot; <a href="https://x.com/mareksuscak" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="lom lom-instruments slovakia" data-categories="">
+          <td><a href="https://github.com/LOM-instruments" target="_blank">LOM</a> (@LOM-instruments)</td>
+          <td>—</td>
+          <td><a href="https://github.com/LOM-instruments/Priezor" target="_blank">Priezor</a> — open source heptagonal magnetic antenna<br><a href="https://github.com/LOM-instruments/Elektrosluch-DIY" target="_blank">Elektrosluch-DIY</a><br><a href="https://github.com/LOM-instruments/Elektrosluch-3-plus" target="_blank">Elektrosluch-3-plus</a> — Elektrosluch 3+ • electromagnetic listening device</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://lom.audio" target="_blank">https://lom.audio</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="its itsgoingd slovakia" data-categories="Backend|Languages">
+          <td><a href="https://github.com/itsgoingd" target="_blank">its</a> (@itsgoingd)</td>
+          <td><span class="chip">Backend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/itsgoingd/clockwork" target="_blank">clockwork</a> — Clockwork - php dev tools in your browser - server-side component<br><a href="https://github.com/itsgoingd/clockwork-chrome" target="_blank">clockwork-chrome</a> — Clockwork - php dev tools integrated to your browser - Chrome extension<br><a href="https://github.com/itsgoingd/slim-services" target="_blank">slim-services</a> — Service manager for Slim compatible with Laravel packages</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>its@luzer.sk<br><a href="https://its.wtf" target="_blank">https://its.wtf</a></td>
+          <td><a href="https://twitter.com/itsgoingd" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search=" sneakyevil slovakia" data-categories="Languages">
+          <td><a href="https://github.com/sneakyevil" target="_blank">sneakyevil</a> (@sneakyevil)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/sneakyevil/IL2CPP_Resolver" target="_blank">IL2CPP_Resolver</a> — A run-time API resolver for IL2CPP Unity.<br><a href="https://github.com/sneakyevil/SD-ModMenu" target="_blank">SD-ModMenu</a> — Mod Menu for Sleeping Dogs: Definitive Edition<br><a href="https://github.com/sneakyevil/SD-RenderTweaker" target="_blank">SD-RenderTweaker</a> — A modification for Sleeping Dogs: Definitive Edition that allows to tweak more in-game settings, such as disabling anti-aliasing, certain UI elements, and much more.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>admin@sneakyevil.eu<br><a href="https://sneakyevil.eu" target="_blank">https://sneakyevil.eu</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="samuel šteiner developer-samuel slovakia" data-categories="Backend|DevOps / Cloud|Frontend|Languages">
+          <td><a href="https://github.com/developer-samuel" target="_blank">Samuel Šteiner</a> (@developer-samuel)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/developer-samuel/github-stats-generator" target="_blank">github-stats-generator</a> — SVG stats and metrics cards for your GitHub profile README.<br><a href="https://github.com/developer-samuel/ares-client" target="_blank">ares-client</a> — PHP library for fetching company data from the Czech ARES registry<br><a href="https://github.com/developer-samuel/developer-samuel" target="_blank">developer-samuel</a> — GitHub profile</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://samuel-steiner.com" target="_blank">samuel-steiner.com</a></td>
+          <td><a href="https://www.linkedin.com/in/samuel-programmer" target="_blank">LinkedIn</a> &middot; <a href="https://links.samuel-steiner.com" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="marek šuppa mrshu slovakia" data-categories="Data / AI|Languages">
           <td><a href="https://github.com/mrshu" target="_blank">Marek Šuppa</a> (@mrshu)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/mrshu/muxboard" target="_blank">muxboard</a> — Stream Deck+ dashboard for cmux, Orca, and Herdr coding agents, with live attention keys and CodexBar quotas, pace, spend, tokens, and credits on the LCD.<br><a href="https://github.com/mrshu/pi-commandcode-provider" target="_blank">pi-commandcode-provider</a> — pi custom provider for the Command Code API — 18 models including Claude, GPT, DeepSeek, Kimi, GLM, MiniMax, and Qwen</td>
+          <td><span class="chip">Data / AI</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/mrshu/github-statuses" target="_blank">github-statuses</a> — The &quot;Missing GitHub Status Page&quot; -- a Flat Data attempt at historically documenting GitHub statuses<br><a href="https://github.com/mrshu/agent-skills" target="_blank">agent-skills</a> — Useful skills for AI agents (Claude Code, etc.)<br><a href="https://github.com/mrshu/zjctl" target="_blank">zjctl</a> — Programmatic Zellij automation for humans, scripts, and agents alike</td>
           <td>—</td>
           <td>Slovakia</td>
           <td><a href="https://mareksuppa.com" target="_blank">https://mareksuppa.com</a></td>
+          <td><a href="https://twitter.com/mareksuppa" target="_blank">X</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="anton karpenko karpolan bratislava, slovakia" data-categories="Frontend|Languages">
+          <td><a href="https://github.com/karpolan" target="_blank">Anton Karpenko</a> (@karpolan)</td>
+          <td><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/karpolan/react-typescript-mui-with-auth-starter" target="_blank">react-typescript-mui-with-auth-starter</a> — [IMPORTANT] - better use Vite starter https://github.com/karpolan/react-mui-vite-ts instead of this &quot;Create React App + React + Material UI&quot; starter<br><a href="https://github.com/karpolan/react-mui-pro-starter" target="_blank">react-mui-pro-starter</a> — [IMPORTANT] - better use Vite starter https://github.com/karpolan/react-mui-vite-ts instead of this &quot;Create React App + Material UI&quot; starter<br><a href="https://github.com/karpolan/react-mui-vite-ts" target="_blank">react-mui-vite-ts</a> — Starter project for Vite with React + MUI using TypeScript</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>i@karpolan.com<br><a href="https://www.patreon.com/karpolan" target="_blank">https://www.patreon.com/karpolan</a></td>
+          <td><a href="https://www.linkedin.com/in/karpolan/" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/karpolan" target="_blank">X</a> &middot; <a href="https://www.facebook.com/karpolan/" target="_blank">Facebook</a> &middot; <a href="https://linki.site/page/karpolan" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="saso kiselkov skiselkov slovakia" data-categories="Languages">
+          <td><a href="https://github.com/skiselkov" target="_blank">Saso Kiselkov</a> (@skiselkov)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/skiselkov/BetterPushbackC" target="_blank">BetterPushbackC</a> — This is the BetterPushback plugin for X-Plane 11 and X-Plane 12<br><a href="https://github.com/skiselkov/librain" target="_blank">librain</a> — Generic rain &amp; ice effect library for X-Plane<br><a href="https://github.com/skiselkov/libacfutils" target="_blank">libacfutils</a></td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>skiselkov@gmail.com</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="michal fojtik mfojtik slovakia" data-categories="Backend|DevOps / Cloud|Languages">
+          <td><a href="https://github.com/mfojtik" target="_blank">Michal Fojtik</a> (@mfojtik)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/mfojtik/sinatra-rabbit" target="_blank">sinatra-rabbit</a> — Sinatra based framework and DSL for building rock-solid REST applications (like API&#x27;s)<br><a href="https://github.com/mfojtik/k8s-trigger-controller" target="_blank">k8s-trigger-controller</a> — External controller that trigger Kubernetes Deployments on ConfigMap or Secret changes<br><a href="https://github.com/mfojtik/goodmod" target="_blank">goodmod</a> — A pocket knife tool for manipulating go.mod files</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="http://mfojtik.io" target="_blank">http://mfojtik.io</a></td>
+          <td><a href="https://twitter.com/mfojtik" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="martin kiss tricertops slovakia / netherlands" data-categories="Mobile">
+          <td><a href="https://github.com/Tricertops" target="_blank">Martin Kiss</a> (@Tricertops)</td>
+          <td><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/Tricertops/KeepLayout" target="_blank">KeepLayout</a> — Making Auto Layout easier to code.<br><a href="https://github.com/Tricertops/Block-KVO" target="_blank">Block-KVO</a> — Objective-C Key-Value Observing made easier with blocks<br><a href="https://github.com/Tricertops/Objective-Chain" target="_blank">Objective-Chain</a> — Object-oriented reactive framework, inspired by ReactiveCocoa</td>
+          <td>—</td>
+          <td>Slovakia / Netherlands</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="nazar adamenko atoryx1s košice, slovakia" data-categories="Languages">
+          <td><a href="https://github.com/Atoryx1s" target="_blank">Nazar Adamenko</a> (@Atoryx1s)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/Atoryx1s/NETWORK" target="_blank">NETWORK</a><br><a href="https://github.com/Atoryx1s/AutoFlow" target="_blank">AutoFlow</a> — Development of a software solution for automating routine operations as a tool for saving resources<br><a href="https://github.com/Atoryx1s/Atoryx1s" target="_blank">Atoryx1s</a></td>
+          <td>—</td>
+          <td>Košice, Slovakia</td>
+          <td>nazaradamenko161@gmail.com</td>
+          <td><a href="https://www.linkedin.com/in/nazar-adamenko" target="_blank">LinkedIn</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="juraj andrássy jandrassy slovakia" data-categories="Languages">
+          <td><a href="https://github.com/JAndrassy" target="_blank">Juraj Andrássy</a> (@JAndrassy)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/JAndrassy/ArduinoOTA" target="_blank">ArduinoOTA</a> — Arduino library to upload sketch over network to Arduino board with WiFi or Ethernet libraries<br><a href="https://github.com/JAndrassy/WiFiEspAT" target="_blank">WiFiEspAT</a> — Arduino networking library. Standard Arduino WiFi networking API over ESP8266 or ESP32 AT commands.<br><a href="https://github.com/JAndrassy/TelnetStream" target="_blank">TelnetStream</a> — Arduino Stream implementation over Telnet for OTA logging and debugging</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://www.instagram.com/juraj_andrassy/" target="_blank">https://www.instagram.com/juraj_andrassy/</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="gabriel valky gabonator slovakia" data-categories="Languages">
+          <td><a href="https://github.com/gabonator" target="_blank">Gabriel Valky</a> (@gabonator)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/gabonator/LA104" target="_blank">LA104</a> — LA104 logic analyser alternative firmware and experiments<br><a href="https://github.com/gabonator/DS203" target="_blank">DS203</a> — DS203 quad oscilloscope firmware compatible with gcc<br><a href="https://github.com/gabonator/Work-in-progress" target="_blank">Work-in-progress</a> — Various unfinished or small projects</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>—</td>
+          <td><a href="https://www.linkedin.com/in/gabriel-v%C3%A1lky-266ba23b" target="_blank">LinkedIn</a> &middot; <a href="https://www.youtube.com/@gabonator" target="_blank">Youtube</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="marián hello mauron85 slovakia" data-categories="Backend|Frontend|Languages|Mobile">
+          <td><a href="https://github.com/mauron85" target="_blank">Marián Hello</a> (@mauron85)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/mauron85/react-native-background-geolocation" target="_blank">react-native-background-geolocation</a> — Background and foreground geolocation plugin for React Native. Tracks user when app is running in background.<br><a href="https://github.com/mauron85/react-native-background-geolocation-example" target="_blank">react-native-background-geolocation-example</a> — Example app of react-native-mauron85-background-geolocation component.<br><a href="https://github.com/mauron85/cordova-plugin-background-geolocation-example" target="_blank">cordova-plugin-background-geolocation-example</a></td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="martin kubovčík markub3327 slovakia" data-categories="Data / AI|DevOps / Cloud|Languages">
           <td><a href="https://github.com/markub3327" target="_blank">Martin Kubovčík</a> (@markub3327)</td>
-          <td>Classical ML, Deep Learning Frameworks</td>
-          <td><a href="https://github.com/markub3327/HAR-Transformer" target="_blank">HAR-Transformer</a> — Transformer for Human Activity Recognition<br><a href="https://github.com/markub3327/Solar-Transformer" target="_blank">Solar-Transformer</a> — Solar Irradiance Forecasting with Transformer model</td>
+          <td><span class="chip">Data / AI</span><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/markub3327/HAR-Transformer" target="_blank">HAR-Transformer</a> — Transformer for Human Activity Recognition<br><a href="https://github.com/markub3327/Solar-Transformer" target="_blank">Solar-Transformer</a> — Solar Irradiance Forecasting with Transformer model<br><a href="https://github.com/markub3327/rl-toolkit" target="_blank">rl-toolkit</a> — RL-Toolkit: A Research Framework for Robotics</td>
           <td>—</td>
           <td>Slovakia</td>
           <td>markub3327@gmail.com</td>
+          <td><a href="https://twitter.com/markub3327" target="_blank">X</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="marek kraus gamelaster slovakia" data-categories="DevOps / Cloud|Languages|Mobile">
+          <td><a href="https://github.com/gamelaster" target="_blank">Marek Kraus</a> (@gamelaster)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/gamelaster/ArduinoGamepad" target="_blank">ArduinoGamepad</a> — A GamePad HID library for Arduino Pro Micro/Leonardo (ATMega32u4)<br><a href="https://github.com/gamelaster/FW1FontWrapper" target="_blank">FW1FontWrapper</a> — FW1FontWrapper is a font wrapper library for drawing text using Direct3D 11<br><a href="https://github.com/gamelaster/RTD2662" target="_blank">RTD2662</a> — Source codes, materials of LCD controller chip RTD2662/RTD2660</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="http://marekkraus.sk/" target="_blank">http://marekkraus.sk/</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ondrej fabry ondrajz bratislava, slovakia" data-categories="Backend|Languages">
+          <td><a href="https://github.com/ondrajz" target="_blank">Ondrej Fabry</a> (@ondrajz)</td>
+          <td><span class="chip">Backend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/ondrajz/go-callvis" target="_blank">go-callvis</a> — Visualize call graph of a Go program using Graphviz<br><a href="https://github.com/ondrajz/goexplorer" target="_blank">goexplorer</a> — Interactive overview of Go packages using dynamic visualization.<br><a href="https://github.com/ondrajz/shrinkurl" target="_blank">shrinkurl</a> — Simple URL shortening service in Go.</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>ondrej@fabry.email<br><a href="https://fabry.dev" target="_blank">https://fabry.dev</a></td>
+          <td><a href="https://www.linkedin.com/in/ondrajz" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/ondrejfabry" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="michal chvila electry slovakia" data-categories="Languages|Mobile">
           <td><a href="https://github.com/Electry" target="_blank">Michal Chvila</a> (@Electry)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/Electry/opencode-jetbrains-ai-bridge" target="_blank">opencode-jetbrains-ai-bridge</a> — Proof of concept plugin for OpenCode V2 that allows using GPT &amp; Claude models via your JetBrains AI plan natively</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/Electry/VitaGrafix" target="_blank">VitaGrafix</a> — VitaGrafix - taiHEN plugin that allows you to change resolution and FPS cap of PS Vita games<br><a href="https://github.com/Electry/PSVshell" target="_blank">PSVshell</a> — Yet another overclocking plugin<br><a href="https://github.com/Electry/VitaGrafixPatchlist" target="_blank">VitaGrafixPatchlist</a> — Collection of patches for VitaGrafix 5.0+</td>
           <td>—</td>
           <td>Slovakia</td>
           <td>dev@electry.sk<br><a href="https://electry.sk" target="_blank">https://electry.sk</a></td>
+          <td>—</td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="amos bastian amosbastian banska bystrica, slovakia" data-categories="Backend|Data / AI|Frontend|Languages|Testing / QA">
           <td><a href="https://github.com/amosbastian" target="_blank">Amos Bastian</a> (@amosbastian)</td>
-          <td>Classical ML</td>
-          <td><a href="https://github.com/amosbastian/understat" target="_blank">understat</a> — An asynchronous Python package for https://understat.com/.</td>
+          <td><span class="chip">Backend</span><span class="chip">Data / AI</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/amosbastian/fpl" target="_blank">fpl</a> — An asynchronous Python wrapper for the Fantasy Premier League API.<br><a href="https://github.com/amosbastian/template" target="_blank">template</a> — A Next.js 13 application with authentication and payments, built with PlanetScale, Drizzle ORM, Lucia, Tailwind and LemonSqueezy<br><a href="https://github.com/amosbastian/understat" target="_blank">understat</a> — An asynchronous Python package for https://understat.com/.</td>
           <td>—</td>
           <td>Banska Bystrica, Slovakia</td>
           <td>amosbastian@gmail.com<br><a href="https://amosbastian.com" target="_blank">https://amosbastian.com</a></td>
+          <td>—</td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="tomas slusny deathbeam slovakia" data-categories="Languages|Mobile">
+          <td><a href="https://github.com/deathbeam" target="_blank">Tomas Slusny</a> (@deathbeam)</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/deathbeam/dotfiles" target="_blank">dotfiles</a> — My awesome dotfiles :rocket:<br><a href="https://github.com/deathbeam/autocomplete.nvim" target="_blank">autocomplete.nvim</a> — Very simple and minimal autocompletion for cmdline and buffer using LSP and Tree-sitter with signature help<br><a href="https://github.com/deathbeam/jua" target="_blank">jua</a> — LuaJIT for Java on Windows, Mac OS X, Linux, Android and iOS.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>slusnucky@gmail.com</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="dominik madarász zpl-zak slovakia, zvolen" data-categories="Languages">
+          <td><a href="https://github.com/zpl-zak" target="_blank">Dominik Madarász</a> (@zpl-zak)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/zpl-zak/NEON86" target="_blank">NEON86</a> — A toy game engine reflecting on simplicity and retro approach to gamedev.<br><a href="https://github.com/zpl-zak/v4k-mirror" target="_blank">v4k-mirror</a> — Mirror repository of the V4K game engine<br><a href="https://github.com/zpl-zak/odin-zeromq" target="_blank">odin-zeromq</a> — Odin bindings for ZeroMQ distributed messaging library.</td>
+          <td>—</td>
+          <td>Slovakia, Zvolen</td>
+          <td>contact@madaraszd.net<br><a href="https://madaraszd.net/" target="_blank">https://madaraszd.net/</a></td>
+          <td><a href="https://twitter.com/DMadarasz" target="_blank">X</a> &middot; <a href="https://v4.games/" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ilyar ilyar slovakia" data-categories="Languages|Mobile">
           <td><a href="https://github.com/ilyar" target="_blank">Ilyar</a> (@ilyar)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/ilyar/aiqa" target="_blank">aiqa</a> — Compatibility and behavior testing for OpenAI, Anthropic, and Google GenAI API facades</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/ilyar/xsltproc" target="_blank">xsltproc</a> — Wrapper for xsltproc<br><a href="https://github.com/ilyar/deco" target="_blank">deco</a> — CLI for dev container <br><a href="https://github.com/ilyar/aiqa" target="_blank">aiqa</a> — Compatibility and behavior testing for OpenAI, Anthropic, and Google GenAI API facades</td>
           <td>—</td>
           <td>Slovakia</td>
           <td>ilyar.software@gmail.com<br><a href="https://ilyarsoftware.substack.com/" target="_blank">https://ilyarsoftware.substack.com/</a></td>
+          <td><a href="https://linkedin.com/in/ilyarsoftware/" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/ilyarsoftware" target="_blank">X</a> &middot; <a href="https://t.me/ilyarsoftware" target="_blank">Generic</a> &middot; <a href="https://wakatime.com/@ilyar" target="_blank">Generic</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="vojtech rinik vojto kosice, slovakia" data-categories="DevOps / Cloud|Frontend|Languages|Mobile">
+          <td><a href="https://github.com/vojto" target="_blank">Vojtech Rinik</a> (@vojto)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/vojto/react-swiftui" target="_blank">react-swiftui</a> — SwiftUI-like API written in React<br><a href="https://github.com/vojto/focusmate-hw" target="_blank">focusmate-hw</a> — Desk display for Focusmate sessions on an M5Stack Core2: a Time Timer-style pie, a countdown and a clock<br><a href="https://github.com/vojto/milestones" target="_blank">milestones</a> — A local-first macOS app for seeing the shape of a year — a calendar of every month beside a timeline of milestones</td>
+          <td>—</td>
+          <td>Kosice, Slovakia</td>
+          <td>vojto@rinik.net</td>
+          <td><a href="https://twitter.com/_vojto" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="tomas marcincin amoledwatchfaces bratislava, slovakia" data-categories="Mobile">
+          <td><a href="https://github.com/amoledwatchfaces" target="_blank">Tomas Marcincin</a> (@amoledwatchfaces)</td>
+          <td><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/amoledwatchfaces/Complications-Suite-Wear-OS" target="_blank">Complications-Suite-Wear-OS</a> — Complications Suite - Wear OS app<br><a href="https://github.com/amoledwatchfaces/Solar-Path-Watch-Face-Wear-OS" target="_blank">Solar-Path-Watch-Face-Wear-OS</a> — Track the 24-hour solar cycle, 5 twilight phases, and real-time sun position.<br><a href="https://github.com/amoledwatchfaces/Pixel-Minimal-Watch-Face" target="_blank">Pixel-Minimal-Watch-Face</a> — Made in Watch Face Format 2 (Wear OS 5+)</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>support@amoledwatchfaces.com<br><a href="https://amoledwatchfaces.com" target="_blank">https://amoledwatchfaces.com</a></td>
+          <td><a href="https://twitter.com/amoledwfs" target="_blank">X</a> &middot; <a href="https://instagram.com/amoledwatchfaces" target="_blank">Instagram</a> &middot; <a href="https://facebook.com/amoledwatchfaces" target="_blank">Facebook</a> &middot; <a href="https://play.google.com/store/apps/dev?id=5591589606735981545" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="peter @shtif stefcek pshtif slovakia" data-categories="Languages">
+          <td><a href="https://github.com/pshtif" target="_blank">Peter @sHTiF Stefcek</a> (@pshtif)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/pshtif/Genome2D" target="_blank">Genome2D</a> — 2D GPU Framework<br><a href="https://github.com/pshtif/RuntimeTransformHandle" target="_blank">RuntimeTransformHandle</a> — Runtime transform handle for Unity.<br><a href="https://github.com/pshtif/Dash" target="_blank">Dash</a> — Dash Animation System for Unity</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>pshtif@gmail.com<br><a href="http://www.genome2d.com" target="_blank">http://www.genome2d.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="samuel samuelpatro slovakia" data-categories="Backend|Languages|Mobile">
           <td><a href="https://github.com/samuelpatro" target="_blank">Samuel</a> (@samuelpatro)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/samuelpatro/vibejuice" target="_blank">vibejuice</a> — One-click account switcher for Claude Code, Codex CLI and Grok CLI. When one account runs dry, switch and keep coding. Quota meters included.</td>
+          <td><span class="chip">Backend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/samuelpatro/contenteditor-plugin" target="_blank">contenteditor-plugin</a> — Edit your content in page - plugin for OctoberCMS<br><a href="https://github.com/samuelpatro/winpulse" target="_blank">winpulse</a> — One-command Windows health check with AI-powered analysis. Scans thermals, memory, security overhead, startup bloat, and more.<br><a href="https://github.com/samuelpatro/vibejuice" target="_blank">vibejuice</a> — One-click account switcher for Claude Code, Codex CLI and Grok CLI. When one account runs dry, switch and keep coding. Quota meters included.</td>
           <td>—</td>
           <td>Slovakia</td>
           <td><a href="http://samuelpatro.com" target="_blank">http://samuelpatro.com</a></td>
+          <td><a href="https://www.linkedin.com/in/samuel-patro/" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/sam_uell1" target="_blank">X</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="alailson alailsonko slovakia" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/alailsonko" target="_blank">Alailson</a> (@alailsonko)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/alailsonko/100days-100projects" target="_blank">100days-100projects</a> — 100 days, 100 projects. Using HTML, CSS, Javascript/Typescript.<br><a href="https://github.com/alailsonko/golang-blog" target="_blank">golang-blog</a> — Blog application using golang packages. <br><a href="https://github.com/alailsonko/alailsonko" target="_blank">alailsonko</a></td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ján sáreník jsarenik slovakia" data-categories="Languages|Mobile">
+          <td><a href="https://github.com/jsarenik" target="_blank">Ján Sáreník</a> (@jsarenik)</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/jsarenik/bitcoin-faucet-shell" target="_blank">bitcoin-faucet-shell</a> — POSIX-shell bitcoin faucet<br><a href="https://github.com/jsarenik/price.bublina.eu.org" target="_blank">price.bublina.eu.org</a> — Clone of the most comprehensive all-time Bitcoin price history chart found at https://bitcoin.zorinaq.com/price/<br><a href="https://github.com/jsarenik/cls" target="_blank">cls</a> — C-Lightning scripts (and two Bitcoin Core-related)</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>jajomojo@gmail.com<br><a href="https://järok.bublina.eu.org" target="_blank">https://järok.bublina.eu.org</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="michal kvasničák michalkvasnicak trnava, slovakia" data-categories="Backend|DevOps / Cloud|Frontend|Languages|Mobile|Testing / QA">
+          <td><a href="https://github.com/michalkvasnicak" target="_blank">Michal Kvasničák</a> (@michalkvasnicak)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/michalkvasnicak/aws-lambda-graphql" target="_blank">aws-lambda-graphql</a> — Use AWS Lambda + AWS API Gateway v2 for GraphQL subscriptions over WebSocket and AWS API Gateway v1 for HTTP<br><a href="https://github.com/michalkvasnicak/babel-plugin-css-modules-transform" target="_blank">babel-plugin-css-modules-transform</a> — Extract css class names from required css module files, so we can render it on server.<br><a href="https://github.com/michalkvasnicak/routex" target="_blank">routex</a> — THIS PROJECT IS NO LONGER MAINTAINED AND HAS BEEN UNPUBLISHED FROM NPM</td>
+          <td>—</td>
+          <td>Trnava, Slovakia</td>
+          <td>—</td>
+          <td><a href="https://x.com/michalkvasnicak" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="gabriel ostrolucký ostrolucky brezno, slovakia" data-categories="Languages">
+          <td><a href="https://github.com/ostrolucky" target="_blank">Gabriel Ostrolucký</a> (@ostrolucky)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/ostrolucky/Bulk-Bing-Image-downloader" target="_blank">Bulk-Bing-Image-downloader</a> — Download full sized images returned from bing image search<br><a href="https://github.com/ostrolucky/stdinho" target="_blank">stdinho</a> — :electric_plug: Turn any STDIN/STDOUT into HTTP server<br><a href="https://github.com/ostrolucky/Simple-Subreddit-Image-Downloader" target="_blank">Simple-Subreddit-Image-Downloader</a> — Bash script for downloading images posted in specific subreddit with minimal footprint</td>
+          <td>—</td>
+          <td>Brezno, Slovakia</td>
+          <td>gadelat@gmail.com</td>
+          <td><a href="https://x.com/gostrolucky" target="_blank">X</a> &middot; <a href="https://t.me/ostrolucky" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="martin zagora zaggino trnava, slovakia" data-categories="Languages">
+          <td><a href="https://github.com/zaggino" target="_blank">Martin Zagora</a> (@zaggino)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/zaggino/z-schema" target="_blank">z-schema</a> — JSON Schema validator written in JavaScript for NodeJS and Browsers<br><a href="https://github.com/zaggino/fix-filenames" target="_blank">fix-filenames</a> — renames non ascii characters in files and directories</td>
+          <td>—</td>
+          <td>Trnava, Slovakia</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="peter leukanič peter-l-svk košice, slovakia" data-categories="Backend|Data / AI|Frontend|Languages|Testing / QA">
+          <td><a href="https://github.com/Peter-L-SVK" target="_blank">Peter Leukanič</a> (@Peter-L-SVK)</td>
+          <td><span class="chip">Backend</span><span class="chip">Data / AI</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/Peter-L-SVK/pro_audio_config" target="_blank">pro_audio_config</a> — A modern graphical audio-quality setting system tool based on GTK3 and Rust for Linux or other Unix-likes using GTK based or compatible GUI like KDE Plasma...<br><a href="https://github.com/Peter-L-SVK/PyLine" target="_blank">PyLine</a> — Simple, but comprehensive CLI based text editor in Python3 for Unix-like OSes with external hooks support.<br><a href="https://github.com/Peter-L-SVK/sql-schema-studio" target="_blank">sql-schema-studio</a> — Intelligent PostgreSQL management platform. Native Python3/GTK4 desktop IDE with multi-tab SQL editor, visual schema designer, AI index advisor, and a Python/Perl plugin system. Built-in hooks include Auto-Vacuum Advisor, Schema Anomaly Detector, PostgreSQL Log Analyzer, the Keboola normalizer pipeline and Polars-powered statistical analysis. </td>
+          <td>—</td>
+          <td>Košice, Slovakia</td>
+          <td>leukanic.peter@gmail.com</td>
+          <td><a href="https://buymeacoffee.com/leukanic.peter" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="tomáš kováčik tomaskovacik slovakia" data-categories="DevOps / Cloud|Languages">
+          <td><a href="https://github.com/tomaskovacik" target="_blank">Tomáš Kováčik</a> (@tomaskovacik)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/tomaskovacik/vwcdavr" target="_blank">vwcdavr</a> — AVR alternative to vwcdpic HW+SW<br><a href="https://github.com/tomaskovacik/BK3254" target="_blank">BK3254</a> — arduino library for A2DP bluetooth  module based on BK3254 chip from Beken Corp (F-6888) and BK3266 based module F-6988 from HYT named HY5066 (not HY5066SR)<br><a href="https://github.com/tomaskovacik/VAGFISWriter" target="_blank">VAGFISWriter</a> — Arduino library for writing to V.A.G. cluster display over 3line protocol (no can-bus)</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://www.nodomain.sk" target="_blank">www.nodomain.sk</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="robert važan robertvazan bratislava, slovakia" data-categories="Backend|Data / AI|Languages|Mobile">
           <td><a href="https://github.com/robertvazan" target="_blank">Robert Važan</a> (@robertvazan)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/robertvazan/llobot" target="_blank">llobot</a> — Obsolete custom LLM agent</td>
+          <td><span class="chip">Backend</span><span class="chip">Data / AI</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/robertvazan/sourceafis-java" target="_blank">sourceafis-java</a> — Fingerprint recognition engine for Java that takes a pair of human fingerprint images and returns their similarity score. Supports efficient 1:N search.<br><a href="https://github.com/robertvazan/fingerprint-datasets" target="_blank">fingerprint-datasets</a> — Curated collection of human fingerprint datasets suitable for research and evaluation of fingerprint recognition algorithms.<br><a href="https://github.com/robertvazan/noexception" target="_blank">noexception</a> — Java library for handling exceptions in concise, unified, and architecturally clean way.</td>
           <td>—</td>
           <td>Bratislava, Slovakia</td>
           <td><a href="https://robert.machinezoo.com/" target="_blank">https://robert.machinezoo.com/</a></td>
+          <td>—</td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="juraj nyíri jurajnyiri slovakia" data-categories="Languages">
           <td><a href="https://github.com/JurajNyiri" target="_blank">Juraj Nyíri</a> (@JurajNyiri)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/JurajNyiri/hass-codex-conversation" target="_blank">hass-codex-conversation</a> — Home Assistant custom integration that adds an OpenAI Codex-powered conversation agent with configurable subentries for Assist and AI Task.</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/JurajNyiri/HomeAssistant-Tapo-Control" target="_blank">HomeAssistant-Tapo-Control</a> — Control for Tapo cameras as a Home Assistant component<br><a href="https://github.com/JurajNyiri/pytapo" target="_blank">pytapo</a> — Python library for communication with Tapo Cameras<br><a href="https://github.com/JurajNyiri/PlexMeetsHomeAssistant" target="_blank">PlexMeetsHomeAssistant</a> — Custom card which integrates plex into Home Assistant and makes it possible to launch movies or tv shows on TV with a simple click</td>
           <td>—</td>
           <td>Slovakia</td>
           <td>juraj.nyiri@gmail.com</td>
+          <td>—</td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/JakubVojvoda" target="_blank">Jakub Vojvoda</a> (@JakubVojvoda)</td>
-          <td>Computer Vision</td>
-          <td><a href="https://github.com/JakubVojvoda/motion-segmentation" target="_blank">motion-segmentation</a> — Robust motion detection/segmentation using OpenCV<br><a href="https://github.com/JakubVojvoda/filtering-mcu-fpga" target="_blank">filtering-mcu-fpga</a> — Simple image filtering and segmentation on MCU and FPGA</td>
+        <tr data-search="rené klačan reneklacan slovakia" data-categories="DevOps / Cloud|Languages|Mobile">
+          <td><a href="https://github.com/reneklacan" target="_blank">René Klačan</a> (@reneklacan)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/reneklacan/symspell" target="_blank">symspell</a> — Spelling correction &amp; Fuzzy search based on Symmetric Delete spelling correction algorithm.<br><a href="https://github.com/reneklacan/cayley-ruby" target="_blank">cayley-ruby</a> — A Ruby library for working with Google&#x27;s Cayley graph database.<br><a href="https://github.com/reneklacan/sea-orm-typed-id" target="_blank">sea-orm-typed-id</a></td>
           <td>—</td>
           <td>Slovakia</td>
-          <td><a href="https://jakubvojvoda.com" target="_blank">https://jakubvojvoda.com</a></td>
-          <td>2026-11-16</td>
+          <td>rene@klacan.sk<br><a href="https://klacan.sk" target="_blank">https://klacan.sk</a></td>
+          <td><a href="https://www.linkedin.com/in/reneklacan/" target="_blank">LinkedIn</a> &middot; <a href="https://bsky.app/profile/rene.klacan.sk" target="_blank">Bluesky</a></td>
+          <td>2026-11-17</td>
         </tr>
-        <tr>
+        <tr data-search="kin kin69 slovakia, bratislava" data-categories="Mobile">
+          <td><a href="https://github.com/Kin69" target="_blank">Kin</a> (@Kin69)</td>
+          <td><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/Kin69/EasyNotes" target="_blank">EasyNotes</a> — EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization.<br><a href="https://github.com/Kin69/Athena" target="_blank">Athena</a> — Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.</td>
+          <td>—</td>
+          <td>Slovakia, Bratislava</td>
+          <td>Vexzure@proton.me</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="tomas valent equivalent slovakia" data-categories="Backend|DevOps / Cloud|Languages">
+          <td><a href="https://github.com/equivalent" target="_blank">Tomas Valent</a> (@equivalent)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/equivalent/scrapbook2" target="_blank">scrapbook2</a> — web-development notes and archive of Old articles <br><a href="https://github.com/equivalent/public_uid" target="_blank">public_uid</a> — Automatically generates random unique public id for record.<br><a href="https://github.com/equivalent/copy_carrierwave_file" target="_blank">copy_carrierwave_file</a> — Copy Carrierwave files between records</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>tomas.valent@gmail.com<br><a href="http://www.eq8.eu" target="_blank">http://www.eq8.eu</a></td>
+          <td><a href="https://www.linkedin.com/in/tomasvalent" target="_blank">LinkedIn</a> &middot; <a href="http://stackoverflow.com/users/473040/equivalent8" target="_blank">Generic</a> &middot; <a href="https://rubygems.org/profiles/equivalent" target="_blank">Generic</a> &middot; <a href="https://hub.docker.com/u/equivalent/" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="matus chochlik matus-chochlik slovakia" data-categories="Languages">
+          <td><a href="https://github.com/matus-chochlik" target="_blank">Matus Chochlik</a> (@matus-chochlik)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/matus-chochlik/oglplus" target="_blank">oglplus</a> — OGLplus is a collection of open-source, cross-platform libraries which implement an object-oriented facade over the OpenGL® (version 3 and higher) and also OpenAL® (version 1.1) and EGL (version 1.4) C-language APIs. It provides wrappers which automate resource and object management and make the use of these libraries in C++ safer and more convenient.<br><a href="https://github.com/matus-chochlik/ctcache" target="_blank">ctcache</a> — Cache for clang-tidy static analysis results<br><a href="https://github.com/matus-chochlik/mirror" target="_blank">mirror</a> — Reflection utilities and examples built on top of C++ reflection TS implementation.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://codeberg.org/matus_chochlik" target="_blank">https://codeberg.org/matus_chochlik</a></td>
+          <td><a href="https://mastodon.online/@matus_chochlik" target="_blank">Mastodon</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="juraj kollár mostypc123 slovakia" data-categories="Languages">
+          <td><a href="https://github.com/mostypc123" target="_blank">Juraj Kollár</a> (@mostypc123)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/mostypc123/XediX" target="_blank">XediX</a> — 🖥️💻 XediX is a text editor for coding in 🐍 Python built with wxPython.<br><a href="https://github.com/mostypc123/sendit" target="_blank">sendit</a> — A serverless chat app written in C++<br><a href="https://github.com/mostypc123/jason" target="_blank">jason</a> — A useless, unfinished markup language based on JSON. Made as a joke.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>mostypc123@redroselinux.org<br><a href="https://mostypc123.is-a.dev" target="_blank">https://mostypc123.is-a.dev</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="michal takac michaltakac košice, slovakia" data-categories="Data / AI|DevOps / Cloud|Frontend|Languages">
           <td><a href="https://github.com/michaltakac" target="_blank">Michal Takac</a> (@michaltakac)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/michaltakac/paperclip-hermes-codex-auth" target="_blank">paperclip-hermes-codex-auth</a> — Sign a Hermes agent in to OpenAI Codex from the Paperclip UI. Device-code login per Hermes profile, so each agent holds its own credential instead of sharing one that rotates.</td>
+          <td><span class="chip">Data / AI</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/michaltakac/awesome-crypto-ai-agents" target="_blank">awesome-crypto-ai-agents</a> — A curated list of production‑oriented projects powering the crypto economy for AI agents - including agent‑to‑agent workflows, AI DAOs, and human‑in‑the‑loop systems with on‑chain payments.<br><a href="https://github.com/michaltakac/r3f-llm" target="_blank">r3f-llm</a><br><a href="https://github.com/michaltakac/explorable-research" target="_blank">explorable-research</a> — Create interactive explorable web pages from research articles</td>
           <td>—</td>
           <td>Košice, Slovakia</td>
           <td>hello@michaltakac.com<br><a href="https://michaltakac.com" target="_blank">https://michaltakac.com</a></td>
+          <td><a href="https://twitter.com/michaltakac" target="_blank">X</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/drahosp" target="_blank">Peter Drahoš</a> (@drahosp)</td>
-          <td>Deep Learning Frameworks</td>
-          <td><a href="https://github.com/drahosp/ort" target="_blank">ort</a> — Fast ML inference &amp; training for Rust with ONNX Runtime</td>
+        <tr data-search="alex mizerak alemiz112 slovakia" data-categories="DevOps / Cloud|Frontend|Languages">
+          <td><a href="https://github.com/Alemiz112" target="_blank">Alex Mizerak</a> (@Alemiz112)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/Alemiz112/StarGate-Atlantis" target="_blank">StarGate-Atlantis</a> — This is stable and fast plugin for PMMP that allows server connect to WaterDog plugin StarGate. It make easier communication between server. Includes API for custom packets, transferring players and more<br><a href="https://github.com/Alemiz112/StarGate" target="_blank">StarGate</a> — StarGate is plugin for WaterDog (mcbe and mcpc proxy) that allows commuinication between servers/clients.<br><a href="https://github.com/Alemiz112/netbird-connect" target="_blank">netbird-connect</a> — A GitHub Action to connect your workflow to your Netbird network. Inspired by tailscale/github-action.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="emmanuel rodriguez potyl bratislava, slovakia" data-categories="DevOps / Cloud|Languages|Mobile">
+          <td><a href="https://github.com/potyl" target="_blank">Emmanuel Rodriguez</a> (@potyl)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/potyl/Webkit" target="_blank">Webkit</a> — Having fun with WebKit<br><a href="https://github.com/potyl/speedkey" target="_blank">speedkey</a> — WEP key generator for SpeedTouch modems<br><a href="https://github.com/potyl/xacobeo" target="_blank">xacobeo</a> — Simple XPath visualizer</td>
           <td>—</td>
           <td>Bratislava, Slovakia</td>
-          <td>drahosp@gmail.com</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="miroslav bendík mireq poprad, slovakia" data-categories="Backend|Languages">
+          <td><a href="https://github.com/mireq" target="_blank">Miroslav Bendík</a> (@mireq)</td>
+          <td><span class="chip">Backend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/mireq/esp32-simulator" target="_blank">esp32-simulator</a> — ESP32 simulator for Linux<br><a href="https://github.com/mireq/rEFInd-Catalina" target="_blank">rEFInd-Catalina</a> — Catalina theme ported from clover to rEFInd<br><a href="https://github.com/mireq/luasnip-snippets" target="_blank">luasnip-snippets</a> — Vim-snippets (snipMate &amp; UltiSnip Snippets) converted to native luasnip snippets</td>
+          <td>—</td>
+          <td>Poprad, Slovakia</td>
+          <td>miroslav.bendik@gmail.com<br><a href="http://linuxos.sk" target="_blank">http://linuxos.sk</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="jaroslav imrich jariq slovakia" data-categories="Languages">
+          <td><a href="https://github.com/jariq" target="_blank">Jaroslav Imrich</a> (@jariq)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/jariq/Pkcs7SignatureGenerator" target="_blank">Pkcs7SignatureGenerator</a> — Sample application for signature creation with Pkcs11Interop, BouncyCastle and MimeKit libraries<br><a href="https://github.com/jariq/Pkcs11Interop.PDF" target="_blank">Pkcs11Interop.PDF</a> — DEPRECATED - Integration layer for Pkcs11Interop and iText (iTextSharp) libraries<br><a href="https://github.com/jariq/IPwatchD" target="_blank">IPwatchD</a> — IP conflict detection tool for Linux</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>jimrich@jimrich.sk<br><a href="https://jimrich.sk" target="_blank">https://jimrich.sk</a></td>
+          <td><a href="https://twitter.com/jimrichsk" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="tomas kislan tkislan slovakia" data-categories="Backend|DevOps / Cloud|Frontend|Languages">
+          <td><a href="https://github.com/tkislan" target="_blank">Tomas Kislan</a> (@tkislan)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/tkislan/base64" target="_blank">base64</a> — Base64 encoding and decoding for C++ projects<br><a href="https://github.com/tkislan/url_encoder" target="_blank">url_encoder</a> — C++ implementation of URL encoding (http://tools.ietf.org/html/rfc3986)<br><a href="https://github.com/tkislan/teaching-nextjs-2024" target="_blank">teaching-nextjs-2024</a></td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>kislan.tomas@gmail.com</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="diego pino dpino košice, slovakia" data-categories="Languages|Testing / QA">
+          <td><a href="https://github.com/dpino" target="_blank">Diego Pino</a> (@dpino)</td>
+          <td><span class="chip">Languages</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/dpino/xdp_ipv6_filter" target="_blank">xdp_ipv6_filter</a> — IPv6 filter using XDP/eBPF<br><a href="https://github.com/dpino/NDS-Rom-Trimmer" target="_blank">NDS-Rom-Trimmer</a> — ROM Trimmer for Nintendo DS<br><a href="https://github.com/dpino/Snippr" target="_blank">Snippr</a> — Code snippet manager</td>
+          <td>—</td>
+          <td>Košice, Slovakia</td>
+          <td><a href="https://blogs.igalia.com/dpino/" target="_blank">https://blogs.igalia.com/dpino/</a></td>
+          <td><a href="https://mastodon.social/@dpino" target="_blank">Mastodon</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="michal spano michalspano sweden/holland/slovakia/..." data-categories="Frontend|Languages">
+          <td><a href="https://github.com/michalspano" target="_blank">Michal Spano</a> (@michalspano)</td>
+          <td><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/michalspano/terminarium" target="_blank">terminarium</a> — 🌱 An Enclosure System – Terrarium + Terminal<br><a href="https://github.com/michalspano/dotfiles" target="_blank">dotfiles</a> — 🔧 dotfiles, scripts, env, config, etc. :: [unix &amp; macOS]<br><a href="https://github.com/michalspano/AppointDent" target="_blank">AppointDent</a> — 🦷🪥｟ AppointDent ｠is a fullstack webapp for managing dentists, clients, and their appointments.</td>
+          <td>—</td>
+          <td>Sweden/Holland/Slovakia/...</td>
+          <td>spano@michalspano.com<br><a href="https://michalspano.com" target="_blank">michalspano.com</a></td>
+          <td><a href="https://x.com/michalspano" target="_blank">X</a> &middot; <a href="https://orcid.org/0009-0000-5211-5334" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="mike gogulski mikegogulski bratislava, slovakia" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/mikegogulski" target="_blank">Mike Gogulski</a> (@mikegogulski)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/mikegogulski/bitcoin-wp-e-commerce" target="_blank">bitcoin-wp-e-commerce</a> — Bitcoin payment plugin for WP e-Commerce for WordPress<br><a href="https://github.com/mikegogulski/bitcoin-virtuemart" target="_blank">bitcoin-virtuemart</a> — Bitcoin payment plugin for VirtueMart shopping cart for Joomla!<br><a href="https://github.com/mikegogulski/Mephbot" target="_blank">Mephbot</a> — Mephbot for Diablo 2 LoD 1.0x godidon&#x27;tremembertherevnumber</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>—</td>
+          <td><a href="https://twitter.com/mikegogulski" target="_blank">X</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="oliver juhas webmandesign slovakia, eu" data-categories="Languages">
+          <td><a href="https://github.com/webmandesign" target="_blank">Oliver Juhas</a> (@webmandesign)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/webmandesign/jquery.hoverdir" target="_blank">jquery.hoverdir</a> — jQuery HoverDir plugin<br><a href="https://github.com/webmandesign/demo-content" target="_blank">demo-content</a> — Demo content XML files for WebMan Design WordPress themes.<br><a href="https://github.com/webmandesign/playground-for-beaver-themer" target="_blank">playground-for-beaver-themer</a> — Simple bare-bone WordPress theme for Beaver Themer plugin.</td>
+          <td>—</td>
+          <td>Slovakia, EU</td>
+          <td><a href="https://www.webmandesign.eu" target="_blank">https://www.webmandesign.eu</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="jozef izso jozefizso bratislava, slovakia" data-categories="Backend|DevOps / Cloud|Frontend|Languages|Mobile">
+          <td><a href="https://github.com/jozefizso" target="_blank">Jozef Izso</a> (@jozefizso)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/jozefizso/SystemWrapper" target="_blank">SystemWrapper</a> — .NET library for easier testing of system APIs.<br><a href="https://github.com/jozefizso/apimonitor" target="_blank">apimonitor</a><br><a href="https://github.com/jozefizso/generator-license" target="_blank">generator-license</a> — Yeoman Generator - License</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="michal juhas michaljuhas bratislava, slovakia" data-categories="Frontend|Languages">
+          <td><a href="https://github.com/michaljuhas" target="_blank">Michal Juhas</a> (@michaljuhas)</td>
+          <td><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/michaljuhas/SQL-training-advanced" target="_blank">SQL-training-advanced</a> — SQL-training-advanced<br><a href="https://github.com/michaljuhas/sample-database" target="_blank">sample-database</a> — This is a sample database used for my SQL course on Udemy.<br><a href="https://github.com/michaljuhas/recruiting-skills" target="_blank">recruiting-skills</a> — A suite of focused Claude Code Agent Skills for recruiters &amp; talent acquisition managers.</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>michal@michaljuhas.com<br><a href="https://michaljuhas.com" target="_blank">https://michaljuhas.com</a></td>
+          <td><a href="https://www.linkedin.com/in/michaljuhas/" target="_blank">LinkedIn</a> &middot; <a href="https://twitter.com/juhasm" target="_blank">X</a> &middot; <a href="https://aiwithmichal.com" target="_blank">Generic</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="jozef butko jbutko slovakia" data-categories="Backend|Frontend|Languages|Testing / QA">
+          <td><a href="https://github.com/jbutko" target="_blank">Jozef Butko</a> (@jbutko)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/jbutko/AngularJS-Boilerplate" target="_blank">AngularJS-Boilerplate</a> — Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks<br><a href="https://github.com/jbutko/stickyNavbar.js" target="_blank">stickyNavbar.js</a> — stickyNavbar.js: Fancy sticky navigation jQuery plugin with smart anchor link highlighting<br><a href="https://github.com/jbutko/ExpressJS-Socket.IO-AngularJS-Boilerplate" target="_blank">ExpressJS-Socket.IO-AngularJS-Boilerplate</a> — ExpressJS, Socket.IO &amp; AngularJS Boilerplate</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://www.jozefbutko.com" target="_blank">https://www.jozefbutko.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="peter javorsky tekk banska bystrica, slovakia" data-categories="Data / AI|Languages|Mobile">
+          <td><a href="https://github.com/tekk" target="_blank">Peter Javorsky</a> (@tekk)</td>
+          <td><span class="chip">Data / AI</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/tekk/map-tiles-downloader" target="_blank">map-tiles-downloader</a> — Map tiles downloader for Meshtastic / MeshCore apps<br><a href="https://github.com/tekk/LoRa_APRS_iGate-OE5BPA-Repeater" target="_blank">LoRa_APRS_iGate-OE5BPA-Repeater</a> — Lora APRS Digipeater<br><a href="https://github.com/tekk/yaesu_ft2d_ft3d_ft5d_config_converter" target="_blank">yaesu_ft2d_ft3d_ft5d_config_converter</a> — Single page application running in browser to convert between Yaesu&#x27;s FT2D, FT3D and FT5D configuration CSV files, as those are incompatible between the trasceivers. This is a simple way to convert your channels configuration and port it to another handheld.</td>
+          <td>—</td>
+          <td>Banska Bystrica, Slovakia</td>
+          <td>tekk.sk@gmail.com<br><a href="https://tekk.eu" target="_blank">https://tekk.eu</a></td>
+          <td><a href="https://twitter.com/tekkoooo" target="_blank">X</a></td>
+          <td>2026-11-16</td>
+        </tr>
+        <tr data-search="andrej shadura andrewshadura bratislava, slovakia" data-categories="Languages|Mobile">
+          <td><a href="https://github.com/andrewshadura" target="_blank">Andrej Shadura</a> (@andrewshadura)</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/andrewshadura/git-crecord" target="_blank">git-crecord</a> — Git subcommand to interactively select changes to commit or stage<br><a href="https://github.com/andrewshadura/tnat64" target="_blank">tnat64</a> — IPv4 to IPv6 interceptor<br><a href="https://github.com/andrewshadura/inputplug" target="_blank">inputplug</a> — XInput event monitor daemon</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>andrew@shadura.me<br><a href="https://shadura.me" target="_blank">https://shadura.me</a></td>
+          <td><a href="https://blog.shadura.me" target="_blank">Generic</a> &middot; <a href="https://mastodon.social/@andrew_shadura" target="_blank">Mastodon</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="boris oreqizer slovakia" data-categories="Backend|Frontend|Languages|Testing / QA">
+          <td><a href="https://github.com/oreqizer" target="_blank">Boris</a> (@oreqizer)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/oreqizer/reactizer-2016" target="_blank">reactizer-2016</a> — (UNMAINTAINED) The most hipster React and React Native boilerplate! :smiling_imp:<br><a href="https://github.com/oreqizer/rust-notes" target="_blank">rust-notes</a> — Terse Rust learning material. :crab:<br><a href="https://github.com/oreqizer/reactizer" target="_blank">reactizer</a> — Monorepo with all things React. :wrench:</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td><a href="https://boris.lol" target="_blank">https://boris.lol</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ján trenčanský j91321 slovakia" data-categories="DevOps / Cloud|Frontend|Languages">
+          <td><a href="https://github.com/j91321" target="_blank">Ján Trenčanský</a> (@j91321)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/j91321/rext" target="_blank">rext</a> — Router EXploitation Toolkit - small toolkit for easy creation and usage of various python scripts that work with embedded devices.<br><a href="https://github.com/j91321/ansible-role-sysmon" target="_blank">ansible-role-sysmon</a> — Ansible role for installing Sysmon with popular config files included.<br><a href="https://github.com/j91321/conti-manuals-analysis" target="_blank">conti-manuals-analysis</a> — Analysis of techniques used by Conti ransomware affiliates from their leaked manuals.</td>
+          <td>—</td>
+          <td>Slovakia</td>
+          <td>—</td>
+          <td><a href="https://infosec.exchange/@j91321" target="_blank">Mastodon</a> &middot; <a href="https://bsky.app/profile/j91321.bsky.social" target="_blank">Bluesky</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="erik slovák effektsvk bratislava, slovakia" data-categories="Backend|DevOps / Cloud|Frontend|Languages|Mobile|Testing / QA">
+          <td><a href="https://github.com/effektsvk" target="_blank">Erik Slovák</a> (@effektsvk)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/effektsvk/bodymovin-numbercount-aescript" target="_blank">bodymovin-numbercount-aescript</a> — An After Effects slider control alternative for bodymovin<br><a href="https://github.com/effektsvk/getchrome-nextjs" target="_blank">getchrome-nextjs</a> — Install Chrome with a single PowerShell command<br><a href="https://github.com/effektsvk/arc-alts-comparison" target="_blank">arc-alts-comparison</a> — Feature comparison of Arc browser alternatives</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>erik.slovak7@gmail.com<br><a href="https://eriks.tools" target="_blank">https://eriks.tools</a></td>
+          <td><a href="https://twitter.com/effeKtSVK" target="_blank">X</a> &middot; <a href="https://twitch.tv/effeKtSVK" target="_blank">Twitch</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="aleksandr murzin cyberscoper bratislava, slovakia" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/CyberScoper" target="_blank">Aleksandr Murzin</a> (@CyberScoper)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/CyberScoper/antitelega" target="_blank">antitelega</a> — Go userbot для Telegram — массовый скан чатов на Telega-юзеров через VK Calls API<br><a href="https://github.com/CyberScoper/stressertelegram" target="_blank">stressertelegram</a> — A Python-based stress testing tool that interacts with Telegram bots. This project allows users to send a large number of requests to a specified Telegram bot to test its resilience and performance under high load.<br><a href="https://github.com/CyberScoper/telegram_bot_ip" target="_blank">telegram_bot_ip</a> — This is a simple Telegram bot that provides geolocation information for IP addresses. The bot supports multiple languages, including English, Russian, and Slovak.</td>
+          <td>—</td>
+          <td>Bratislava, Slovakia</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="zdeno kuzmany kuzmany slovak republic" data-categories="Backend|Languages|Mobile">
+          <td><a href="https://github.com/kuzmany" target="_blank">Zdeno Kuzmany</a> (@kuzmany)</td>
+          <td><span class="chip">Backend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/kuzmany/browser-annotations" target="_blank">browser-annotations</a> — Visual web annotation overlay → markdown for AI coding agents (Claude Code, Cursor). CDP-injected, no extension, no MCP.<br><a href="https://github.com/kuzmany/slovak-humanizer" target="_blank">slovak-humanizer</a> — Claude Code skill that removes AI-generated writing tells from Slovak text and fixes typical Slovak language errors (bohemisms, anglicisms, diacritics, calques, AI clichés). Install via skills.sh.<br><a href="https://github.com/kuzmany/nativephp-mobile-skill" target="_blank">nativephp-mobile-skill</a> — Claude Code / skills.sh agent skill for NativePHP Mobile v3.0–3.1 — build iOS/Android apps with Laravel</td>
+          <td>—</td>
+          <td>Slovak republic</td>
+          <td>zku@webmecanik.com<br><a href="https://webmecanik.com" target="_blank">https://webmecanik.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="filip gulán raiper34 slovak republic" data-categories="DevOps / Cloud|Frontend|Languages">
+          <td><a href="https://github.com/Raiper34" target="_blank">Filip Gulán</a> (@Raiper34)</td>
+          <td><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/Raiper34/awesome-phaser" target="_blank">awesome-phaser</a> — A curated list of  awesome Phaser libraries, resources and shiny things.<br><a href="https://github.com/Raiper34/m3u-parser-generator" target="_blank">m3u-parser-generator</a> — Library to parse and generate m3u or m3u8 IPTV playlist files<br><a href="https://github.com/Raiper34/device-rotation-prompt" target="_blank">device-rotation-prompt</a> — The device rotation prompt is the library to show a fullscreen prompt message when device orientation is different than you expect.</td>
+          <td>—</td>
+          <td>Slovak republic</td>
+          <td>filip@gulan.eu<br><a href="https://gulan.eu/" target="_blank">https://gulan.eu/</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="peter demján demjanp dobrohošť, slovak republic" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/demjanp" target="_blank">Peter Demján</a> (@demjanp)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/demjanp/deposit" target="_blank">deposit</a> — Graph database for scientific data collection<br><a href="https://github.com/demjanp/CeraMatch" target="_blank">CeraMatch</a> — Visual shape-matching and classification of ceramics<br><a href="https://github.com/demjanp/clustering_14C" target="_blank">clustering_14C</a> — Clustering of calibrated radiocarbon dates</td>
+          <td>—</td>
+          <td>Dobrohošť, Slovak Republic</td>
+          <td>peter.demjan@gmail.com<br><a href="https://laseraidedprofiler.com" target="_blank">laseraidedprofiler.com</a></td>
+          <td><a href="https://twitter.com/p_demjan" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="tomáš taro tomasko126 bratislava, slovak republic" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/tomasko126" target="_blank">Tomáš Taro</a> (@tomasko126)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/tomasko126/easylistczechandslovak" target="_blank">easylistczechandslovak</a> — EasyList Czech and Slovak is an official filter list for uBlock Origin, AdBlock, Adblock Plus and other ad blockers out there.<br><a href="https://github.com/tomasko126/BlackBerry-10-Radio-Stream-App" target="_blank">BlackBerry-10-Radio-Stream-App</a> — Online radio stream app built for BlackBerry 10 OS written in BlackBerry Cascades (JavaScript/C++/QML)<br><a href="https://github.com/tomasko126/notemark" target="_blank">notemark</a> — Simple extension for saving URLs for later visit</td>
+          <td>—</td>
+          <td>Bratislava, Slovak Republic</td>
+          <td>tomasko126@gmail.com</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="martin kubečka martinkubecka slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/martinkubecka" target="_blank">Martin Kubečka</a> (@martinkubecka)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/martinkubecka/C2Detective" target="_blank">C2Detective</a> — :mag: Application for detecting command and control (C2) communication through network traffic analysis.<br><a href="https://github.com/martinkubecka/C2Hunter" target="_blank">C2Hunter</a> — :eagle:  Use fingerprinting to actively hunt for Command and Control servers on Shodan. Process threat feeds from Abuse.ch services to create a local database of C2 servers.<br><a href="https://github.com/martinkubecka/OhMyDoS" target="_blank">OhMyDoS</a> — :no_entry: Console application abusing Wordpress API called XML-RPC and its functions with aim of Denial-of-Service.</td>
+          <td>—</td>
+          <td>Slovak Republic</td>
+          <td><a href="https://martinkubecka.sk" target="_blank">https://martinkubecka.sk</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="kostiantyn yemets kyemets slovak republic" data-categories="Frontend|Languages">
+          <td><a href="https://github.com/kyemets" target="_blank">Kostiantyn Yemets</a> (@kyemets)</td>
+          <td><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/kyemets/insta-save-telegram-bot" target="_blank">insta-save-telegram-bot</a> — telegram bot for anonymous browsing and downloads of instagram stories<br><a href="https://github.com/kyemets/taxi-app" target="_blank">taxi-app</a> — Taxi App is a web application built with React, Tailwind CSS and Next.js that allows users to book taxis and view them on a map. It utilizes Redux for state management and integrates with Google Maps API for location services<br><a href="https://github.com/kyemets/todorant-mcp" target="_blank">todorant-mcp</a> — MCP server for Todorant — manage your one-task-at-a-time todos from Claude and other MCP clients</td>
+          <td>—</td>
+          <td>Slovak Republic</td>
+          <td>—</td>
+          <td><a href="https://www.linkedin.com/in/kostiantyn-yemets-390950228/" target="_blank">LinkedIn</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="roman selmeci bratislava, slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/selmeci" target="_blank">Roman</a> (@selmeci)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/selmeci/dgraph-tonic" target="_blank">dgraph-tonic</a> — Async/Sync gRPC client for Dgraph DB<br><a href="https://github.com/selmeci/cascara" target="_blank">cascara</a> — An implementation of TinyLFU cache<br><a href="https://github.com/selmeci/effect-ts-harness" target="_blank">effect-ts-harness</a> — Effect-TS v4 + Alchemy v2 Agentic Engineering Harness (ArchiMate Ontology, Omnigraph .gq, Clef Decision Model &amp; Deterministic Gates)</td>
+          <td>—</td>
+          <td>Bratislava, Slovak Republic</td>
+          <td>selmeci.roman@gmail.com</td>
+          <td>—</td>
+          <td>2026-11-16</td>
+        </tr>
+        <tr data-search="patrik goldschmidt xgoldy bratislava, slovak republic" data-categories="Data / AI|Languages">
           <td><a href="https://github.com/xGoldy" target="_blank">Patrik Goldschmidt</a> (@xGoldy)</td>
-          <td>Classical ML, Deep Learning Frameworks</td>
-          <td><a href="https://github.com/xGoldy/nid-datasets" target="_blank">nid-datasets</a> — Official repository of the &quot;Network Intrusion Datasets: A Survey, Limitations, and Recommendations&quot; by Goldschmidt and Chudá, 2025.<br><a href="https://github.com/xGoldy/Windower" target="_blank">Windower</a> — Source code of &quot;Windower: Feature Extraction for Real-Time DDoS Detection Using Machine Learning&quot; paper.<br><a href="https://github.com/xGoldy/02456-deep-learning-with-PyTorch" target="_blank">02456-deep-learning-with-PyTorch</a> — Exercises and supplementary material for the deep learning course 02456 using PyTorch.</td>
+          <td><span class="chip">Data / AI</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/xGoldy/lucidcv" target="_blank">lucidcv</a> — ATS-safe LaTeX template for modern resumes (CVs). LuaLaTeX, real word spaces, tagged structure, PDF/UA-1, PDF/A-2b, verified against 17 text extractors.<br><a href="https://github.com/xGoldy/nid-datasets" target="_blank">nid-datasets</a> — Official repository of the &quot;Network Intrusion Datasets: A Survey, Limitations, and Recommendations&quot; by Goldschmidt and Chudá, 2025.<br><a href="https://github.com/xGoldy/Windower" target="_blank">Windower</a> — Source code of &quot;Windower: Feature Extraction for Real-Time DDoS Detection Using Machine Learning&quot; paper.</td>
           <td>—</td>
           <td>Bratislava, Slovak Republic</td>
           <td>goldschmidt.patrik@gmail.com</td>
+          <td><a href="https://www.linkedin.com/in/goldschmidt-patrik/" target="_blank">LinkedIn</a> &middot; <a href="https://www.researchgate.net/profile/Patrik-Goldschmidt" target="_blank">Generic</a></td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/vygidor" target="_blank">V</a> (@vygidor)</td>
-          <td>Classical ML</td>
-          <td><a href="https://github.com/vygidor/predmachlearncoursera" target="_blank">predmachlearncoursera</a> — Practical Machine Learning @ Coursera</td>
+        <tr data-search="vladimír vráb invinho bratislava, slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/iNviNho" target="_blank">Vladimír Vráb</a> (@iNviNho)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/iNviNho/gameengine" target="_blank">gameengine</a> — Small and tiny game engine based on OpenGL 3.0<br><a href="https://github.com/iNviNho/myhomesensors" target="_blank">myhomesensors</a> — ESPHome yaml configurations for my home sensors<br><a href="https://github.com/iNviNho/gameformykids" target="_blank">gameformykids</a> — I was always curious about how 3D games work and how are they created. To combine my curiosity with my kids&#x27; possible future interest in games, I decided to create a simple game for them.</td>
+          <td>—</td>
+          <td>Bratislava, Slovak republic</td>
+          <td>vladino.vrab@gmail.com<br><a href="https://vladino.com" target="_blank">https://vladino.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="františek kocúrik frkosk slovak republic" data-categories="Frontend|Languages|Mobile">
+          <td><a href="https://github.com/frkosk" target="_blank">František Kocúrik</a> (@frkosk)</td>
+          <td><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/frkosk/session-recorder" target="_blank">session-recorder</a><br><a href="https://github.com/frkosk/sitemap-to-screenshot" target="_blank">sitemap-to-screenshot</a> — Automate screenshot generation from sitemap URLs using Puppeteer – capture full-page screenshots effortlessly!<br><a href="https://github.com/frkosk/iphone-notes-pipeline" target="_blank">iphone-notes-pipeline</a> — iPhone Voice Memos → Obsidian transcript pipeline, local on Apple Silicon (Voz + Who)</td>
+          <td>—</td>
+          <td>Slovak Republic</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ross nomann rossnomann slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/rossnomann" target="_blank">Ross Nomann</a> (@rossnomann)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/rossnomann/telefeed" target="_blank">telefeed</a> — An RSS/Atom bot for telegram channels<br><a href="https://github.com/rossnomann/ape" target="_blank">ape</a> — A library for reading and writing APEv2 tags<br><a href="https://github.com/rossnomann/srtparse" target="_blank">srtparse</a> — A library for reading SRT Subtitles</td>
+          <td>—</td>
+          <td>Slovak Republic</td>
+          <td>rossnomann@protonmail.com<br><a href="https://rossnomann.com" target="_blank">https://rossnomann.com</a></td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="prokhnenko vladimir volmir bratislava, slovak republic" data-categories="Backend|DevOps / Cloud|Frontend|Languages|Mobile">
+          <td><a href="https://github.com/volmir" target="_blank">Prokhnenko Vladimir</a> (@volmir)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/volmir/dalt-framework" target="_blank">dalt-framework</a> — Dalt Framework<br><a href="https://github.com/volmir/words-api" target="_blank">words-api</a> — The application on YII2 for drawing up different words from one long word<br><a href="https://github.com/volmir/dividing-device" target="_blank">dividing-device</a> — Dividing device</td>
+          <td>—</td>
+          <td>Bratislava, Slovak Republic</td>
+          <td>volmir@ukr.net</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="ľubomír kurčák lkurcak bratislava, slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/lkurcak" target="_blank">Ľubomír Kurčák</a> (@lkurcak)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/lkurcak/t-lang.nvim" target="_blank">t-lang.nvim</a><br><a href="https://github.com/lkurcak/auburn" target="_blank">auburn</a> — Fast and simple physics library.<br><a href="https://github.com/lkurcak/server-monitor" target="_blank">server-monitor</a></td>
           <td>—</td>
           <td>Bratislava, Slovak Republic</td>
           <td>—</td>
-          <td>2026-11-16</td>
+          <td>—</td>
+          <td>2026-11-17</td>
         </tr>
-        <tr>
+        <tr data-search="ing. ján janušek janjanusek slovak republic, žilina" data-categories="Data / AI|Languages">
           <td><a href="https://github.com/janjanusek" target="_blank">Ing. Ján Janušek</a> (@janjanusek)</td>
-          <td>Computer Vision</td>
-          <td><a href="https://github.com/janjanusek/Computer-vision-APP" target="_blank">Computer-vision-APP</a> — This project is application for computer vision. Project includes DLL to my first version of my AI SDK. This SDK is not available online because I&#x27;m working on better implementation of this SDK. App was presented to my supervisor here: https://www.youtube.com/watch?v=bLEpKUo93fo&amp;feature=youtu.be . Please be aware this description is targeted for real person who I know so respect my language.</td>
+          <td><span class="chip">Data / AI</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/janjanusek/Computer-vision-APP" target="_blank">Computer-vision-APP</a> — This project is application for computer vision. Project includes DLL to my first version of my AI SDK. This SDK is not available online because I&#x27;m working on better implementation of this SDK. App was presented to my supervisor here: https://www.youtube.com/watch?v=bLEpKUo93fo&amp;feature=youtu.be . Please be aware this description is targeted for real person who I know so respect my language.<br><a href="https://github.com/janjanusek/Toolkit.NET" target="_blank">Toolkit.NET</a> — Sometimes when I&#x27;m facing to some problem instead of research I come up with my own solution. I think few of tem I can share with you.<br><a href="https://github.com/janjanusek/Cache" target="_blank">Cache</a></td>
           <td>—</td>
           <td>Slovak republic, Žilina</td>
           <td>—</td>
+          <td>—</td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
+        <tr data-search="vitalii liubimov polokij bratislava city, slovak republic" data-categories="Backend|DevOps / Cloud|Languages">
           <td><a href="https://github.com/Polokij" target="_blank">Vitalii Liubimov</a> (@Polokij)</td>
-          <td>LLM / NLP</td>
-          <td><a href="https://github.com/Polokij/laravel-ai-translator" target="_blank">laravel-ai-translator</a> — Automatic translate your language files into many languages using AI like Claude, GPT and etc.</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/Polokij/laravel-vault-env" target="_blank">laravel-vault-env</a> — Hashicorp Vault client for Laravel with possibility set the env variables from Vault secret dynamically<br><a href="https://github.com/Polokij/laravel-opensearch" target="_blank">laravel-opensearch</a><br><a href="https://github.com/Polokij/jCollage" target="_blank">jCollage</a> — jCollage</td>
           <td>—</td>
           <td>Bratislava city, Slovak Republic</td>
           <td>vitalii@liubimov.org</td>
+          <td>—</td>
           <td>2026-11-16</td>
         </tr>
-        <tr>
-          <td><a href="https://github.com/jschon1991" target="_blank">Jakub Schön</a> (@jschon1991)</td>
-          <td>Deep Learning Frameworks</td>
-          <td><a href="https://github.com/jschon1991/ParkingSpotter" target="_blank">ParkingSpotter</a> — Application for recognising free parking spots from camera feed using TensorFlow neural network for classification and Django framework to display data.</td>
+        <tr data-search="dmytro loiko hilltty slovak republic" data-categories="Languages|Mobile">
+          <td><a href="https://github.com/hilltty" target="_blank">Dmytro Loiko</a> (@hilltty)</td>
+          <td><span class="chip">Languages</span><span class="chip">Mobile</span></td>
+          <td><a href="https://github.com/hilltty/hilltty-flags" target="_blank">hilltty-flags</a> — Maximum performance launch flags for Minecraft Server<br><a href="https://github.com/hilltty/my-fish-config" target="_blank">my-fish-config</a> — My personal Fish shell configuration. Not recommended for general use.<br><a href="https://github.com/hilltty/hilltty-page" target="_blank">hilltty-page</a> — Personal home page.</td>
           <td>—</td>
-          <td>Slovak republic, Banska Bystrica</td>
-          <td>j.schon1991@gmail.com</td>
-          <td>2026-11-16</td>
+          <td>Slovak Republic</td>
+          <td><a href="https://hilltty.zip" target="_blank">hilltty.zip</a></td>
+          <td><a href="https://www.linkedin.com/in/hilltty/" target="_blank">LinkedIn</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="patrik čelko patrikcelko slovak republic (slovakia)" data-categories="Backend|DevOps / Cloud|Frontend|Languages|Testing / QA">
+          <td><a href="https://github.com/patrikcelko" target="_blank">Patrik Čelko</a> (@patrikcelko)</td>
+          <td><span class="chip">Backend</span><span class="chip">DevOps / Cloud</span><span class="chip">Frontend</span><span class="chip">Languages</span><span class="chip">Testing / QA</span></td>
+          <td><a href="https://github.com/patrikcelko/32-bit-processor-Emulator" target="_blank">32-bit-processor-Emulator</a> — A complete implementation of a 32-bit processor emulator with assembler, virtual CPU, and instruction set architecture.<br><a href="https://github.com/patrikcelko/Logitech-rally-bar-restarter" target="_blank">Logitech-rally-bar-restarter</a> — Simple program in Python whose goal is to automatically restart Logitech RALLY BAR without human touch.<br><a href="https://github.com/patrikcelko/Local-Authority" target="_blank">Local-Authority</a></td>
+          <td>—</td>
+          <td>Slovak Republic (Slovakia)</td>
+          <td><a href="https://patrikcelko.com/" target="_blank">https://patrikcelko.com/</a></td>
+          <td><a href="https://twitter.com/PatrikCelko" target="_blank">X</a> &middot; <a href="https://www.instagram.com/patrikcelko/" target="_blank">Instagram</a> &middot; <a href="https://www.facebook.com/celko.patrik/" target="_blank">Facebook</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="lubos garancovsky lubosgarancovsky slovak republic" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/lubosgarancovsky" target="_blank">Lubos Garancovsky</a> (@lubosgarancovsky)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/lubosgarancovsky/lubosgarancovsky" target="_blank">lubosgarancovsky</a><br><a href="https://github.com/lubosgarancovsky/nvim-config" target="_blank">nvim-config</a> — My personal neovim configuration<br><a href="https://github.com/lubosgarancovsky/go-kit" target="_blank">go-kit</a> — Utility kit for faster web service creation in Go</td>
+          <td>—</td>
+          <td>Slovak Republic</td>
+          <td><a href="https://lubosgarancovsky.github.io/v2/" target="_blank">https://lubosgarancovsky.github.io/v2/</a></td>
+          <td><a href="https://twitter.com/LGarancovsky" target="_blank">X</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="štefan korečko skorecko košice, slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/skorecko" target="_blank">Štefan Korečko</a> (@skorecko)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/skorecko/GameStudioTAcad" target="_blank">GameStudioTAcad</a><br><a href="https://github.com/skorecko/GameStudioTA" target="_blank">GameStudioTA</a><br><a href="https://github.com/skorecko/myTreesB4appReact" target="_blank">myTreesB4appReact</a> — Created with CodeSandbox</td>
+          <td>—</td>
+          <td>Košice, Slovak Republic</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="lukáš neuschl nebstersk bratislava, slovak republic" data-categories="Backend|Frontend|Languages">
+          <td><a href="https://github.com/NebsterSK" target="_blank">Lukáš Neuschl</a> (@NebsterSK)</td>
+          <td><span class="chip">Backend</span><span class="chip">Frontend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/NebsterSK/claude-settings" target="_blank">claude-settings</a> — Global settings for Claude<br><a href="https://github.com/NebsterSK/euflorea" target="_blank">euflorea</a><br><a href="https://github.com/NebsterSK/netrac" target="_blank">netrac</a></td>
+          <td>—</td>
+          <td>Bratislava, Slovak Republic</td>
+          <td><a href="https://legacy-upgrade.com/" target="_blank">https://legacy-upgrade.com/</a></td>
+          <td><a href="https://www.linkedin.com/in/lukas-neuschl/" target="_blank">LinkedIn</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="david s. staruch bratislava, slovak republic" data-categories="Languages">
+          <td><a href="https://github.com/staruch" target="_blank">David S.</a> (@staruch)</td>
+          <td><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/staruch/dtse_assignment" target="_blank">dtse_assignment</a> — DTSE House Price Prediction Pipeline<br><a href="https://github.com/staruch/university-assignments" target="_blank">university-assignments</a> — JAVA, C++ school assignments</td>
+          <td>—</td>
+          <td>Bratislava, Slovak Republic</td>
+          <td><a href="https://staruch.eu, abenio.com" target="_blank">staruch.eu, abenio.com</a></td>
+          <td><a href="https://www.linkedin.com/in/staruch/" target="_blank">LinkedIn</a></td>
+          <td>2026-11-17</td>
+        </tr>
+        <tr data-search="radoslav bielik immutability slovak republic" data-categories="Backend|Languages">
+          <td><a href="https://github.com/immutability" target="_blank">Radoslav Bielik</a> (@immutability)</td>
+          <td><span class="chip">Backend</span><span class="chip">Languages</span></td>
+          <td><a href="https://github.com/immutability/acarsdec-parser" target="_blank">acarsdec-parser</a> — A simple bash parser for the acarsdec utility<br><a href="https://github.com/immutability/Hello-World" target="_blank">Hello-World</a> — just testing<br><a href="https://github.com/immutability/GeoPuzzle-for-GeoGet" target="_blank">GeoPuzzle-for-GeoGet</a> — A simple geocaching plugin for GeoGet - automatically generates GeoPuzzles from your geocache database</td>
+          <td>—</td>
+          <td>Slovak Republic</td>
+          <td>—</td>
+          <td>—</td>
+          <td>2026-11-17</td>
         </tr>
   </table>
+  </div>
 
   <p class="note">
     Sourced only from public GitHub/Hugging Face profile fields the person chose to make visible
-    (location, bio, blog/website, public email). No LinkedIn scraping. If you reach out, include
-    a clear way to opt out of further contact.
+    (location, bio, blog/website, public email, and GitHub's public social-accounts API for
+    self-added LinkedIn/X/website links). No scraping of LinkedIn or X directly, no phone numbers.
+    If you reach out, include a clear way to opt out of further contact.
   </p>
+
+<script>
+(function() {
+  var search = document.getElementById('search');
+  var chips = document.querySelectorAll('.chip-filter');
+  var rows = document.querySelectorAll('tr[data-search]');
+  var activeCategories = new Set();
+
+  function apply() {
+    var query = search.value.trim().toLowerCase();
+    rows.forEach(function(row) {
+      var matchesSearch = !query || row.dataset.search.indexOf(query) !== -1;
+      var rowCategories = row.dataset.categories ? row.dataset.categories.split('|') : [];
+      var matchesCategories = activeCategories.size === 0 ||
+        Array.from(activeCategories).some(function(c) { return rowCategories.indexOf(c) !== -1; });
+      row.classList.toggle('hidden', !(matchesSearch && matchesCategories));
+    });
+  }
+
+  search.addEventListener('input', apply);
+  chips.forEach(function(chip) {
+    chip.addEventListener('click', function() {
+      var category = chip.dataset.category;
+      if (activeCategories.has(category)) {
+        activeCategories.delete(category);
+        chip.classList.remove('active');
+      } else {
+        activeCategories.add(category);
+        chip.classList.add('active');
+      }
+      apply();
+    });
+  });
+})();
+</script>
 </body>
 </html>
