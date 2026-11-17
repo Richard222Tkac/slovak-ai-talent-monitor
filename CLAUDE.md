@@ -34,6 +34,8 @@ Local setup: copy `.env.example` to `.env` and fill in `GITHUB_TOKEN` (no specia
 
 `output/dashboard.html` is served at a public URL via GitHub Pages ("Deploy from a branch", default branch, `/ (root)` folder — no file relocation needed). The scheduled cloud routine already commits+pushes this file on every run, and GitHub Pages auto-rebuilds on every push to the configured branch, so the hosted page stays current with no extra moving parts.
 
+Two small supporting files at the repo root make this work cleanly: `.nojekyll` (empty, stops GitHub Pages' default Jekyll processing from touching the static output) and `index.html` (a meta-refresh redirect to `output/dashboard.html`, so the bare Pages URL works too, not just the full path).
+
 ### Scheduled cloud routine
 
 A Claude Code scheduled routine (`claude.ai/code/routines`) runs this repo 3x/day (09:00/14:00/18:00 Europe/Bratislava). Its prompt: export `GITHUB_TOKEN` from `gh auth token` (the sandbox's own `gh` auth, not a stored secret — there is no secrets mechanism wired into the routine), install deps, run the script, and commit+push only `data/seen_profiles.json` and `output/dashboard.html` if it succeeds. `HF_TOKEN` is not required in that environment; `enrich_huggingface()` works unauthenticated against HF's public endpoint, just with a lower rate limit.
